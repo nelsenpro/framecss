@@ -41,10 +41,10 @@ npm i getframecss
 ```
 ### Github 👇
 ```txt
-git clone https://github.com/nelsenpro/frame.git
+git clone https://github.com/nelsenpro/framecss.git
 ```
 ### Zip File 👇
-[Download Zip](https://github.com/nelsenpro/frame/archive/refs/heads/main.zip)
+[Download Zip](https://github.com/nelsenpro/framecss/archive/refs/heads/main.zip)
 
 
 ### see other source on : 👇
