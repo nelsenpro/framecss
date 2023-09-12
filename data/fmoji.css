@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+:root {
+    --xxl: 3.35rem;
+    --xl: 2.5rem;
+    --lg: 1.75rem;
+    --sm: 1.25rem;
+    --duration: 1.5s;
+}
+.f-xxl,
+.xxl {
+    font-size: var(--xxl);
+}
+.f-xl,
+.xl {
+    font-size: var(--xl);
+}
+.f-lg,
+.lg {
+    font-size: var(--lg);
+}
+.f-sm,
+.sm {
+    font-size: var(--sm);
+}
+
+[class*="f-"] {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 0;
+    cursor: pointer;
+    transition-duration: var(--duration);
+}
+.fhover:hover,
+[class*="f-"]:hover {
+    opacity: 1;
+    -webkit-transform: rotate(5deg) skewY(3deg);
+    -moz-transform: rotate(5deg) skewY(3deg);
+    -ms-transform: rotate(5deg) skewY(3deg);
+    -o-transform: rotate(5deg) skewY(3deg);
+    transform: rotate(5deg) skewY(3deg);
+}
+
+.f-love:before {
+    content: "❤️";
+}
+.f-broken:before {
+    content: "💔";
+}
+.f-like:before {
+    content: "👍";
+}
+.f-dislike:before {
+    content: "👎";
+}
+.f-happy:before {
+    content: "🥰";
+}
+.f-false:before {
+    content: "❎";
+}
+.f-correct:before {
+    content: "✅";
+}
+.f-sad:before {
+    content: "🥺";
+}
+.f-cry:before {
+    content: "😭";
+}
+.f-smile:before {
+    content: "🤣";
+}
+.f-kiss:before {
+    content: "😘";
+}
+.f-hy:before {
+    content: "🤗";
+}
+.f-fix:before {
+    content: "😉";
+}
+.f-hello:before {
+    content: "😇";
+}
+.f-bumb:before {
+    content: "🤯";
+}
+.f-fine:before {
+    content: "😎";
+}
+.f-ghost:before {
+    content: "👻";
+}
+.f-omg:before {
+    content: "😱";
+}
+.f-emm:before {
+    content: "🤔";
+}
+.f-sik:before {
+    content: "🤕";
+}
+.f-star:before {
+    content: "⭐";
+}
+.f-top:before {
+    content: "🔝";
+}
+.f-up:before {
+    content: "🆙";
+}
+.f-back-hand:before {
+    content: "👇";
+}
+.f-sorry:before {
+    content: "🙏";
+}
+.f-sparkles:before {
+    content: "✨";
+}
+.f-piece:before {
+    content: "✌️";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* your code here...*/
