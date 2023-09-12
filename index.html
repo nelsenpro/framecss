@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- framecss -->
+    <link rel="stylesheet" href="data/frame.css" type="text/css" media="all" />
+    <script src="data/jq.js" type="text/javascript" charset="utf-8"></script>
+     <script src="data/typed.js"></script>
+    <title>Framecss 1.1.4</title>
+</head>
+<body>
+    <div class="bg-fdcyan center-align white">
+        <br />
+        <h2>
+            Framecss are commonly used for..? :
+        </h2>
+        <div class="white-box">
+            |
+            <a href="#" id="cssf">CSS Framework</a> |
+            <a href="#" id="statistic">Statistic</a> |
+            <a href="#" id="animated">Animated</a> |
+            <a href="#" id="presentation">Presentation</a> |
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 bg-dark white">
+            <br />
+            <h3 class="cssf bg-white black"> 🖥️ CSS Framework</h3>
+            <span id="element">
+                
+            </span> <br /> <br />
+            <a href="docs.html">
+                <button class="button-red" type="submit">let's go 👈👉 </button>
+            </a> <hr />
+            <h3 class="bg-white black statistic"> 🧮 Statistic</h3>
+            <span id="element1">
+                
+            </span> <br /> <br />
+            <a href="statistic-plot.html">
+                <button class="button" type="submit">let's go 👈👉 </button>
+            </a> <hr />
+            <h3 class="bg-white black animated"> 🤗 Animated & Presentation</h3>
+            <span id="element2">
+                
+            </span> <br /> <br />
+            <a href="animate.html">
+                <button class="button-teal" type="submit">let's go 👈👉 </button>
+            </a> <hr />
+        </div>
+        <!--
+                        <div class="col-8 bg-fcyan white">
+                            col-8
+                        </div> -->
+    </div>
+    <div class="bg-magenta white center-align pd8">
+        <p>
+            by Bnelsofc
+        </p>
+    </div>
+    <style type="text/css" media="all">
+        .white-box a, .white-box {
+            color: var(--white)!important;
+            border: none;
+            padding-bottom: 15px;
+        }
+
+        p {
+            padding-left: 8px;
+            padding-right: 4px;
+        }
+        .cssf {
+           
+            animation: fadeInLeft;
+            animation-duration: 4s;
+        }
+        .statistic {
+            
+            animation: flipInY;
+            animation-duration: 7s;
+        }
+        .animated {
+            
+            animation: backInUp;
+            animation-duration: 9s;
+        }
+        [class*="button-"], .btn-success {
+            animation: swing;
+            animation-duration: 9s;
+            border-radius: 8px;
+        }
+    </style>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            $("#cssf").mouseenter(function() {
+                alert("framecss can be used for web design and as a css Framework.");
+            });
+        });
+        $(document).ready(function() {
+            $("#statistic").mouseenter(function() {
+                alert("framecss can be used to process statistical data because it is linked to plotly.js, d3.js and chart.js");
+            });
+        });
+        $(document).ready(function() {
+            $("#animated").mouseenter(function() {
+                alert("framecss can be used for image and text animation because it is linked to animate.css");
+            });
+        });
+        $(document).ready(function() {
+            $("#presentation").mouseenter(function() {
+                alert("framecss can be used for Presentations because it is linked with animate.css and swiffyslider.js");
+            });
+        });
+    </script>
+     <script>
+        var typed = new Typed('#element', {
+            strings: ['framecss css framework, lets go build your design with framecss #web-design '],
+            typeSpeed: 30,
+        });
+        </script>
+        <script>
+        var typed1 = new Typed('#element1', {
+            strings: ['processing data using plotly.js, d3.js and chart.js '],
+            typeSpeed: 130,
+        });
+        var typed2 = new Typed('#element2', {
+            strings: ['Animate and present text and images easily with animated.css and swiffyslider.js '],
+            typeSpeed: 180,
+        });
+        
+    </script>
+</body>
+</html>

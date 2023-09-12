@@ -1,0 +1,2804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/f.min.css" integrity="sha384-aNWyAFKsiVRes3dxJKqD6yRBKGUwkBCetiiLWulHOLHoD/MpHfDu1W77LOdzAAkb" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/f.min.js" integrity="sha384-1EQjYZ6muFdbHRSCZorrtZSyIof2aLBJzKGWPUcObNkoTrds726txjiaSWAwEd0L" crossorigin="anonymous" defer="true"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/slider.min.js" integrity="sha384-LC7plZzeU9UET/paSNIH9pvwywGDR/OHP07p0ii++9841BPetxVbKtnXocr5BVc8" crossorigin="anonymous" defer="true"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/js/cp.js" integrity="sha384-5NUcFWIZxsmAnfe20XG9j0++0ofbsLjDmPX3RhRqUqVwrxRGrfidkDCQYd7AOcxY" crossorigin="anonymous"></script>
+-->
+<link rel="stylesheet" href="data/frame.css" type="text/css" media="all" />
+ <!-- JS -->
+    <script src="data/frame.js" type="text/javascript" charset="utf-8" defer="true"></script>
+    <script src="data/slider.js" type="text/javascript" charset="utf-8" defer="true"></script>
+    <script src="data/cp.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script src="data/typed.js"></script>
+    
+    <title>Framecss</title>
+</head>
+<body class="putih">
+    <button onclick="btnTopFunction()" id="btnTop" title="Go to top">^</button>
+    <style type="text/css" media="all">
+    .tabel, .tabel-hijau {
+        color: var(--black);
+    }
+        .border {
+            border: 1px solid var(--bs-putih);
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+         .btn-sm1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: 20px;
+        display: block;
+    }
+      @media screen and (min-width: 600px) {
+        .btn-sm1 {
+            margin-right: auto;
+            margin-left: 20px;
+        }
+      }
+        /*
+        .textarea0 {
+            height: 25%;
+        }
+        .textarea1 {
+            height: 34%;
+        }
+        .textarea2 {
+            height: 15%;
+        }
+        .textarea3 {
+            height: 40%;
+        }
+        .textarea4 {
+            height: 20%;
+        }
+        .textarea5 {
+            height: 42%;
+        }
+        .textarea6 {
+            height: 50%;
+        }
+        .textarea7 {
+            height: 28%;
+        } */
+/*
+@media screen and (min-width: 600px) {
+    .textarea0 {
+        height: 9%;
+    }
+            .textarea1 {
+                height: 12%;
+            }
+            .textarea2 {
+                height: 5%;
+            }
+            .textarea3 {
+                height: 17%;
+            }
+            .textarea4 {
+                height: 10%;
+            }
+            .textarea5 {
+                height: 20%;
+            }
+            .textarea6 {
+                height: 52%;
+            }
+            .textarea7 {
+                height: 17%;
+            }
+            .textarea8 {
+                height: ;
+                
+            }
+        } */
+    </style>
+    <!--- awal blok atau header -->
+    <div class="header rt-tengah">
+        <div class="header-content blok-biru">
+            <h1 id="element" class="fs20"></h1>
+            <small class="lbs-merah pd5 r8">
+                <b>Bagaimana?</b> <i><b>How Do?</b></i>
+            </small>
+            
+            <script>
+        var typed = new Typed('#element', {
+            strings: ['Welcome to Framecss Docs 1.1.4'],
+            typeSpeed: 150,
+        });
+    </script>
+            
+         
+        </div>
+    </div>
+    <!-- akhir blok atau header -->
+    <div class="baris">
+        <!-- isi konten 1 -->
+        <div class="utama samping bg-kuning">
+            <h2 class="">Menu : </h2> 
+            <ol class="b putih">
+                <li><a href="#Mulai" class="link">Mulai</a></li>
+                 <li><a href="#Grid" class="link">Grid</a></li>
+                <li><a href="#Padding" class="link">Padding</a></li>
+                <li><a href="#Margin" class="link">Margin</a></li>
+                <li><a href="#Radius" class="link">Radius</a></li>
+<li><a href="#Typography" class="link">Typography</a></li>
+<li><a href="#Ketinggian" class="link">Ketinggian</a></li>
+<li><a href="#Lebar" class="link">Lebar</a></li>
+<li><a href="#Ukuran" class="link">Ukuran</a></li>
+<li><a href="#Tooltip" class="link">Tooltip</a></li>
+<li><a href="#Akordion" class="link">Akordion</a></li>
+<li><a href="#Efek-img" class="link">Efek Img</a></li>
+<li><a href="#Fonts" class="link">Fonts</a></li>
+<li><a href="#Halaman" class="link">Halaman</a></li>
+<li><a href="#Slideshow" class="link">Slideshow</a></li>
+<li><a href="#Linklist" class="link">Linklist</a></li>
+<li><a href="#Card" class="link">Card</a></li>
+<li><a href="#Blockquote" class="link">Blockquote</a></li>
+<li><a href="#Gambar" class="link">Gambar</a></li>
+<li><a href="#Form" class="link">Form</a></li>
+                <li><a href="#Navigasi" class="link">Navigasi</a></li>
+                <li><a href="#Blok" class="link">Blok</a></li>
+                <li><a href="#Modals" class="link">Modals</a></li>
+                <li><a href="#Button" class="link">Button</a></li>
+                <li><a href="#Tabel" class="link">Tabel</a></li>
+                <li><a href="#Warna" class="link">Warna</a></li>
+                <li><a href="#Background" class="link">Background</a></li>
+                <li><a href="#Animasi" class="link">Animasi</a></li>
+                <li><a href="#Icons" class="link">Icons</a></li>
+                 <li><a href="#btnTopclik" class="link">btnTop clik</a></li>
+                 <li><a href="fmoji.html" class="link">Emoji</a></li>
+                 <li><a href="fcols.html" class="link">Col- Design</a></li>
+                 <li><a href="jQuery.html" class="link">jQuery Nav</a></li>
+                 <li><a href="Typed.html" class="link">Typed - jQuery</a></li>
+            </ol>
+            
+            <hr />
+<section class="bg-putih hitam pd3 r4">
+    <section id="Mulai" class="border r4">
+                <h2 id="" class="bg-biru pd5 r8 putih">Mulai</h2>
+                <div class="">
+                    <p class="lbs-hijau pd5 r8 putih">
+                        CDN
+                    </p>
+                    <textarea id="textarea100" class="textarea3 lawrencium putih" wrap="off" ></textarea>
+<button class="btn-sm1 amin none putih r8 pd8" onclick="copy100();" id="alert">Copy Code</button>
+<br />
+<p class="lbs-hijau pd5 r8 putih">
+                        NPM <i class="bg-red putih pd5 r4">simply uses</i>
+                    </p>
+                    <textarea id="textarea" class="textarea3 lawrencium putih" wrap="off" >npm i framecss3</textarea>
+<button class="btn-sm1 amin none putih r8 pd8" onclick="copy();" id="alert">Copy Code</button>
+                    <!--
+                     <p class="bg pd5 r8 hitam">
+                        GDrive
+                    </p>
+                    <textarea class="textarea2 lawrencium putih" wrap="off" ></textarea>
+                    <br /> <br /> -->
+                    <p class="lbs-hijau pd5 r8 putih">
+                        Template
+                    </p>
+                    <textarea id="textarea1" class="textarea6 lawrencium putih" wrap="off" ><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- framecss -->
+    <link rel="stylesheet" href="data/frame.css" type="text/css" media="all" />
+    <title>Framecss 1.1.4</title>
+</head>
+<body>
+    <h1 class="red monospace animate__animated animate__bounce">Hello World</h1>
+</body>
+</html></textarea>
+
+<button class="btn-sm1 amin none putih r8 pd8" onclick="copy1();">Copy Code</button>
+
+ <p class="lbs-hijau pd5 r8 putih">
+                        Header dan Footer Layout
+                    </p>
+                    <textarea id="textarea2" class="textarea0 lawrencium putih" wrap="off" ><!--awal header-->
+<div class="header">
+    <div class="header-content"></div>
+</div>
+<!--akhir header--><!-- awal footer-->
+<div class="footer">
+    <div class="footer-content"></div>
+</div>
+<!--akhir footer--></textarea>
+                    
+                    <button class="btn-sm1 amin none putih r8 pd8" onclick="copy2();">Copy Code</button>
+                    
+                     <p class="lbs-hijau pd5 r8 putih">
+                        Float Layout 
+                    </p>
+                    <textarea id="textarea3" class="textarea0 lawrencium putih" wrap="off" ><!--awal float layout-->
+<div class="baris">
+    <div class="utama samping"></div>
+    <div class="utama tengah"></div>
+</div>
+<!--akhir float layout-->
+</textarea>
+                    <button class="btn-sm1 amin none putih r8 pd8" onclick="copy3();">Copy Code</button>
+                     <p class="lbs-hijau pd5 r8 putih">
+                        Grid 1 Layout 
+                    </p>
+                    <textarea id="textarea4" class="textarea0 lawrencium putih" wrap="off" ><!--awal grid1 layout-->
+<div class="framecss-grid1">
+    <div class="konten"></div>
+</div>
+<!--akhir grid1 layout--></textarea>
+                    <button class="btn-sm1 amin none putih r8 pd8" onclick="copy4();">Copy Code</button>
+                     <p class="lbs-hijau pd5 r8 putih">
+                        Grid 2 Layout 
+                    </p>
+                    <textarea id="textarea5" class="textarea0 lawrencium putih" wrap="off" ><!--awal grid2 layout-->
+<div class="framecss-grid2">
+    <div class="konten-kiri"></div>
+    <div class="konten-tengah"></div>
+</div>
+<!--akhir grid2 layout--></textarea>
+                    <button class="btn-sm1 amin none putih r8 pd8" onclick="copy5();">Copy Code</button>
+                     <p class="lbs-hijau pd5 r8 putih">
+                        Grid 3 Layout 
+                    </p>
+                    <textarea id="textarea6" class="textarea0 lawrencium putih" wrap="off" ><!--awal grid3 layout-->
+<div class="framecss-grid3">
+    <div class="konten-kiri"></div>
+    <div class="konten-tengah"></div>
+    <div class="konten-kanan"></div>
+</div>
+<!--akhir grid3 layout--></textarea>
+<button class="btn-sm1 amin none putih r8 pd8" onclick="copy6();">Copy Code</button>
+           </div>
+        </section>             
+    
+    
+    
+  <section id="Grid" class="">
+        <h2 class="bg-biru pd5 r8 putih">Grid konten</h2>
+<p class="bg-ping pd5 r8 putih">
+    Grid 4
+</p>
+  <div class="grid4col">
+        <div class="f-grid4col">
+            <h3 class="">Grid 4 col</h3>
+            <p class="">
+                Grid konten
+            </p>
+        </div>
+        <div class="f-grid4col">
+            <h3 class="">Grid 4 col</h3>
+            <p class="">
+                Grid konten
+            </p>
+        </div>
+        <div class="f-grid4col">
+            <h3 class="">Grid 4 col</h3>
+            <p class="">
+                Grid konten
+            </p>
+        </div>
+        <div class="f-grid4col">
+            <h3 class="">Grid 4 col</h3>
+            <p class="">
+                Grid konten
+            </p>
+        </div>
+    </div>
+<textarea class="sublime-light putih" wrap="off" ><div class="grid4col">
+    <div class="f-grid4col">
+        <h3 class="">Grid 4 col</h3>
+        <p class="">
+            Grid konten
+        </p>
+    </div>
+    <div class="f-grid4col">
+        <h3 class="">Grid 4 col</h3>
+        <p class="">
+            Grid konten
+        </p>
+    </div>
+    <div class="f-grid4col">
+        <h3 class="">Grid 4 col</h3>
+        <p class="">
+            Grid konten
+        </p>
+    </div>
+    <div class="f-grid4col">
+        <h3 class="">Grid 4 col</h3>
+        <p class="">
+            Grid konten
+        </p>
+    </div>
+</div></textarea>
+<br /> <br />
+<p class="bg-ping pd5 r8 putih">
+    Grid 3
+</p>
+<div class="grid3col">
+    <div class="f-grid3col">
+        <h3 class="">Grid 3 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+    <div class="f-grid3col">
+        <h3 class="">Grid 3 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+    <div class="f-grid3col">
+        <h3 class="">Grid 3 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+</div> <br />
+<textarea class="sublime-light putih" wrap="off" ><div class="grid3col">
+    <div class="f-grid3col">
+        <h3 class="">Grid 3 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+    <div class="f-grid3col">
+        <h3 class="">Grid 3 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+    <div class="f-grid3col">
+        <h3 class="">Grid 3 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+</div></textarea>
+
+<br /> <br />
+<p class="bg-ping pd5 r8 putih">
+    Grid 2
+</p>
+<div class="grid2col">
+    <div class="f-grid2col">
+        <h3 class="">Grid 2 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+    <div class="f-grid2col">
+        <h3 class="">Grid 2 col</h3>
+        <p>
+            Grid konten
+        </p>
+    </div>
+</div> <br />
+<textarea class="sublime-light putih" wrap="off" ><div class="grid2col">
+    <div class="f-grid2col">
+        <h3 class="">Grid 2 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+    <div class="f-grid2col">
+        <h3 class="">Grid 2 col</h3>
+        <p>
+            Grid konten
+        </p>
+    </div>
+</div></textarea> 
+<br /> <br />
+<p class="bg-ping pd5 r8 putih">
+    Grid 1
+</p>
+<div class="grid1col">
+    <div class="f-grid1col">
+        <h3 class="">Grid 1 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+</div>
+<textarea class="sublime-light putih" wrap="off" ><div class="grid1col">
+    <div class="f-grid1col">
+        <h3 class="">Grid 1 col</h3>
+        <p>
+            grid konten
+        </p>
+    </div>
+</div></textarea>
+  </section>
+  <hr />
+  
+    
+    
+    
+  <section id="Padding" class="pd8">
+       <details class="detail dbg0">
+       <summary>
+           Padding 
+       </summary>
+       <p>
+          Ada Penyesuaian Padding "pd"
+       </p>
+       <textarea class="kye-meh putih" wrap="off" ><p class="pd1">paragraf padding = 1 px</p>
+<p class="pd2">paragraf padding = 2 px</p>
+<p class="pd3">paragraf padding = 3 px</p>
+<p class="pd5">paragraf padding = 5 px</p>
+<p class="pd8">paragraf padding = 8 px</p>
+<p class="pd10">paragraf padding = 10 px</p>
+<p class="pd15">paragraf padding = 15 px</p>
+<p class="pd20">paragraf padding = 20 px</p>
+<p class="pd25">paragraf padding = 25 px</p>
+<p class="pd30">paragraf padding = 30 px</p></textarea>
+   </details> 
+  </section>
+  
+  
+    <section id="Margin" class="pd8">
+       <details class="detail dbg1">
+       <summary>
+           Margin
+       </summary>
+       <p>
+          Ada Penyesuaian Margin "mg"
+       </p>
+       <textarea class="kye-meh putih" wrap="off" ><p class="mg">paragraf margin = 1 px</p>
+<p class="mg2">paragraf margin = 2 px</p>
+<p class="mg3">paragraf margin = 3 px</p>
+<p class="mg5">paragraf margin = 5 px</p></textarea>
+   </details> 
+  </section>
+  
+  <section id="Radius" class="pd8">
+       <details class="detail dbg2">
+       <summary>
+           Radius 
+       </summary>
+       <p class="bg-ping pd5 r8 putih">
+          Ada Penyesuaian Border Radius "r"
+       </p>
+       <button class="tombol r8" type="submit">tombol = border radius 8 px</button>
+<button class="btn success r4" type="submit">btn success = border radius 4 px</button>
+       <textarea class="kye-meh putih" wrap="off" ><button class="tombol r8" type="submit">tombol = border radius 8 px</button>
+<button class="btn success r4" type="submit">btn success = border radius 4 px</button><button class="button r4" type="submit">tombol = border radius 4 px</button>
+<button class="btn danger r2" type="submit">btn success = border radius 2 px</button>
+<button class="button r12" type="submit">tombol = border radius 12 px</button>
+<button class="btn danger r30" type="submit">btn success = border radius 30 px</button>
+
+<!--
+border radius lainnya:
+none = border NULL...
+r50 = radius 50%; r100 = radius100%; ..rx10, rx25, rx50.
+--></textarea>
+   </details> 
+  </section>
+  
+  <section id="Typography" class="pd8">
+       <details class="detail dbg3">
+       <summary>
+           Typography
+       </summary>
+       <p>
+         <ul class="b">
+    <li><a href="#Warna"><small>lihat</small> Coloring</a></li>
+    <li><a href="#Background"><small>lihat</small> Background Color</a></li>
+    
+    <li><a href="#Fonts"><small>lihat</small> Fonts</a></li>
+    <li><a href="#Ukuran"><small>lihat</small> Ukuran</a></li>
+    <li><a href="#Linklist"><small>lihat</small> Linklist</a></li>
+</ul>
+<hr />
+<p class="i">
+    framecss3 Typografi "i"
+</p>
+<p class="b">
+    framecss3 Typografi "b"
+</p>
+<p class="rt-kanan">
+    framecss3 Typografi "rt-kanan"
+</p>
+<p class="tebal">
+    framecss3 Typografi "tebal"
+</p>
+<p class="miring">
+    framecss3 Typografi "miring"
+</p>
+<p class="rata">
+    framecss3 Typografi "rata"
+</p>
+<p class="justify">
+    framecss3 Typografi "justify"
+</p>
+<p class="rt-tengah">
+    framecss3 Typografi "rt-tengah"
+</p>
+<p class="u">
+    framecss3 Typografi "u"
+</p>
+<p class="up">
+    framecss3 Typografi "up"
+</p>
+<p class="dotted">
+    framecss3 Typografi "dotted"
+</p>
+<p class="low">
+    frameCSS3 TypoGRAfi "low"
+</p>
+<hr />
+       </p>
+       <textarea class="kye-meh putih" wrap="off" ><p class="i">
+    framecss3 Typografi "i"
+</p>
+<p class="b">
+    framecss3 Typografi "b"
+</p>
+<p class="rt-kanan">
+    framecss3 Typografi "rt-kanan"
+</p>
+<p class="tebal">
+    framecss3 Typografi "tebal"
+</p>
+<p class="miring">
+    framecss3 Typografi "miring"
+</p>
+<p class="rata">
+    framecss3 Typografi "rata"
+</p>
+<p class="justify">
+    framecss3 Typografi "justify"
+</p>
+<p class="rt-tengah">
+    framecss3 Typografi "rt-tengah"
+</p>
+<p class="u">
+    framecss3 Typografi "u"
+</p>
+<p class="up">
+    framecss3 Typografi "up"
+</p>
+<p class="dotted">
+    framecss3 Typografi "dotted"
+</p>
+<p class="low">
+    frameCSS3 TypoGRAfi "low"
+</p>
+</textarea> <hr />
+<textarea class="kye-meh putih" wrap="off" >1. font style :
+italic; i; miring
+bold; b; tebal
+
+2. text align :
+center-align; rt-tengah 
+left-lign; rt-kiri
+right-align; rt-kanan
+justify; rata
+
+3. text decoration :
+underline; u; garis-bw 
+
+4. text transform :
+uppercase; up
+lowcase; low
+
+5. line :
+dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden, mix
+</textarea>
+   </details> 
+  </section>
+    
+    <section id="Ketinggian" class="pd8">
+       <details class="detail dbg4">
+       <summary>
+           Ketinggian
+       </summary>
+       <p>
+          Ada Penyesuaian Tinggi "t", "h"
+       </p>
+       <textarea class="kye-meh putih" wrap="off" >class "ha" atau "t5a" = height="auto"
+class "h5" atau "t5" = height="5%"
+class "h10" atau "t10" = height="10%"
+class "h15" atau "t15" = height="15%"
+class "h20" atau "t20" = height="20%"
+class "h25" atau "t25" = height="25%"
+class "h30" atau "t30" = height="30%"
+class "h35" atau "t35" = height="35%"</textarea>
+   </details> 
+  </section>
+  
+    <section id="Lebar" class="pd8">
+       <details class="detail dbg0">
+       <summary>
+           Lebar
+       </summary>
+       <p>
+          Ada Penyesuaian Lebar "w", "l"
+       </p>
+       <textarea class="kye-meh putih" wrap="off" >class "wa" atau "la" = width="auto"
+class "w5" atau "l5" = width="5%"
+class "w10" atau "l10" = width="10%"
+class "w15" atau "l15" = width="15%"
+class "w20" atau "l20" = width="20%"
+class "w25" atau "l25" = width="25%"
+class "w30" atau "l30" = width="30%"
+class "w35" atau "l35" = width="35%"</textarea>
+   </details> 
+  </section>
+  
+    <section id="Ukuran" class="pd8">
+       <details class="detail dbg1">
+       <summary>
+           Ukuran
+       </summary>
+       <p>
+          Ada Penyesuaian Ukuran "u", "fs"
+       </p>
+       <textarea class="kye-meh putih" wrap="off" >class "fs10" atau "u10px" = font-size="10px"
+class "fs12" atau "u12px" = font-size="12px"
+class "fs14" atau "u14px" = font-size="14px"
+class "fs16" atau "u16px" = font-size="16px"
+class "fs20" atau "u20px" = font-size="20px"
+class "fs25" atau "u25px" = font-size="25px"
+class "fs30" atau "u30px" = font-size="30px"
+class "fs35" atau "u35px" = font-size="35px"</textarea>
+   </details> 
+  </section>
+    
+      <section id="Tooltip" class="pd8">
+       <details class="detail dbg2">
+       <summary>
+           Tooltip
+       </summary>
+       <p>
+          Ada Tooltip...
+       </p>
+       <textarea class="kye-meh putih" wrap="off" ><!-- awal Tooltip 1 -->
+<span data-tooltip="ini isi Tooltip atas" data-flow="top">Tooltip atas</span>
+<br />
+<span data-tooltip="ini isi Tooltip bawah" data-flow="bottom">Tooltip bawah</span>
+<br />
+<span data-tooltip="ini isi Tooltip kanan" data-flow="right">Tooltip kanan</span>
+<br />
+<span data-tooltip="ini isi Tooltip kiri" data-flow="left">Tooltip kiri</span>
+<!-- akhir Tooltip 1 -->
+<br />
+<!-- awal Tooltip 2 -->
+<button class="frame fade" judul="frame fade" type="submit">button</button>
+<button class="frame expand" judul="frame expand" type="submit">button</button>
+<button class="frame swing" judul="frame swing" type="submit">button</button>
+<button class="frame aframe" type="submit">button
+<span class="teks">frame aframe</span>
+</button>
+<!-- akhir Tooltip 2 --></textarea>
+   </details> 
+  </section>
+    
+      <section id="Akordion" class="pd8">
+       <details class="detail dbg3">
+       <summary>
+           Accordion
+       </summary>
+       <p>
+          Ada Accordion Panel 
+       </p>
+       <button class="accordion">bagian 1</button>
+<div class="accordionpanel">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div>
+<button class="accordion bg-fbiru putih">bagian 1</button>
+<div class="accordionpanel bg-fnote3 hitam">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div>
+<button class="accordion bg-fhijau putih">bagian 1</button>
+<div class="accordionpanel bg-fabu hitam">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div>
+<button class="accordion bg-fmag putih">bagian 1</button>
+<div class="accordionpanel bg-fnote4 hitam">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div>
+<button class="accordion bg-fungu putih">bagian 1</button>
+<div class="accordionpanel bg-fnote0 hitam">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div>
+<br />
+       <textarea class="kye-meh putih" wrap="off" ><button class="accordion">bagian 1</button>
+<div class="accordionpanel">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div>
+<button class="accordion bg-fbiru putih">bagian 1</button>
+<div class="accordionpanel bg-fnote3 hitam">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div>
+<button class="accordion bg-fhijau putih">bagian 1</button>
+<div class="accordionpanel bg-fabu hitam">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div>
+<button class="accordion bg-fmag putih">bagian 1</button>
+<div class="accordionpanel bg-fnote4 hitam">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div>
+<button class="accordion bg-fungu putih">bagian 1</button>
+<div class="accordionpanel bg-fnote0 hitam">
+    <p>
+        framecss adalah framework CSS...
+    </p>
+</div></textarea>
+   </details> 
+  </section>
+    
+      <section id="Efek-img" class="pd8">
+       <details class="detail dbg4">
+       <summary>
+           Efek Gambar
+       </summary>
+       <p>
+          Ada Efek : invert, shadow, hue-rotate, brightness, contrast, saturate, opacity, sepia, invert, grayscale, blur
+       </p>
+       <textarea class="kye-meh putih" wrap="off" ><img class="invert" src="" alt="" />
+<img class="shadow" src="" alt="" />
+<img class="hue-rotate" src="" alt="" />
+<img class="brightness" src="" alt="" />
+<img class="contrast" src="" alt="" />
+<img class="saturate" src="" alt="" />
+<img class="opacity" src="" alt="" />
+<img class="sepia" src="" alt="" />
+<img class="invert" src="" alt="" />
+<img class="grayscale" src="" alt="" />
+<img class="blur" src="" alt="" /></textarea>
+   </details> 
+  </section>
+    
+      <section id="Fonts" class="pd8">
+       <details class="detail dbg0">
+       <summary>
+           Fonts
+       </summary>
+       <p>
+          Ada Fonts
+       </p>
+       <p class="helvetica">paragraf ini font = helvetica</p>
+<p class="arial">paragraf ini font = arial</p>
+<p class="roman">paragraf ini font = time new roman</p>
+<p class="verdana">paragraf ini font = verdana</p>
+<p class="georgia">paragraf ini font = georgia</p>
+<p class="trebuchet">paragraf ini font = trebuchet</p>
+<p class="tahoma">paragraf ini font = tahoma</p>
+<p class="frank">paragraf ini font = frank</p>
+<p class="garamond">paragraf ini font = garamond</p>
+<p class="segoe">paragraf ini font = segoe</p>
+
+<!-- cursive -->
+<p class="cursive">paragraf ini font = cursive</p>
+<p class="kelly">paragraf ini font = kelly cursive</p>
+<p class="forte">paragraf ini font = forte cursive</p>
+<p class="brush">paragraf ini font = brush</p>
+
+<!-- monospace -->
+<p class="monospace">paragraf ini font = monospace</p>
+<p class="cnmonospace">paragraf ini font = cnmonospace</p>
+       <textarea class="kye-meh putih" wrap="off" ><p class="helvetica">paragraf ini font = helvetica</p>
+<p class="arial">paragraf ini font = arial</p>
+<p class="roman">paragraf ini font = time new roman</p>
+<p class="verdana">paragraf ini font = verdana</p>
+<p class="georgia">paragraf ini font = georgia</p>
+<p class="trebuchet">paragraf ini font = trebuchet</p>
+<p class="tahoma">paragraf ini font = tahoma</p>
+<p class="frank">paragraf ini font = frank</p>
+<p class="garamond">paragraf ini font = garamond</p>
+<p class="segoe">paragraf ini font = segoe</p>
+
+<!-- cursive -->
+<p class="cursive">paragraf ini font = cursive</p>
+<p class="kelly">paragraf ini font = kelly cursive</p>
+<p class="forte">paragraf ini font = forte cursive</p>
+<p class="brush">paragraf ini font = brush</p>
+
+<!-- monospace -->
+<p class="monospace">paragraf ini font = monospace</p>
+<p class="cnmonospace">paragraf ini font = cnmonospace</p></textarea>
+   </details> 
+  </section>
+    
+      <section id="Halaman" class="pd8">
+       <details class="detail dbg1">
+       <summary>
+           Halaman 
+       </summary>
+       <p>
+          Ada Pagination
+       </p>
+       <div class="halaman">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a class="active" href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">&raquo;</a>
+</div>
+<br /> <br />
+
+<nav aria-label="page" class="page-nav">
+    <ul class="page">
+        <li><a href="#"><span aria-hidden="true">&laquo;</span><span class="vhidden">previous</span></a></li>
+        <li><a href="#"><span class="vhidden">page </span>1</a></li>
+        <li><a href="#" aria-current="page"><span class="vhidden">page </span>2</a></li>
+        <li><a href="#"><span class="vhidden">page </span>3</a></li>
+        <li><a href="#"><span class="vhidden">page </span>4</a></li>
+        <li><a href="#"><span class="vhidden">next</span><span aria-hidden="true">&raquo;</span></a></li>
+    </ul>
+</nav>
+<br />
+
+       <textarea class="kye-meh putih" wrap="off" ><div class="halaman">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a class="active" href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">&raquo;</a>
+</div>
+<br /> <br />
+
+<nav aria-label="page" class="page-nav">
+    <ul class="page">
+        <li><a href="#"><span aria-hidden="true">&laquo;</span><span class="vhidden">previous</span></a></li>
+        <li><a href="#"><span class="vhidden">page </span>1</a></li>
+        <li><a href="#" aria-current="page"><span class="vhidden">page </span>2</a></li>
+        <li><a href="#"><span class="vhidden">page </span>3</a></li>
+        <li><a href="#"><span class="vhidden">page </span>4</a></li>
+        <li><a href="#"><span class="vhidden">next</span><span aria-hidden="true">&raquo;</span></a></li>
+    </ul>
+</nav>
+</textarea>
+   </details> 
+  </section>
+    
+      <section id="Slideshow" class="pd8">
+       <details class="detail dbg2">
+       <summary>
+           Slideshow 
+       </summary>
+       <p>
+          Ada Slideshow foto
+       </p>
+       <textarea class="kye-meh putih" wrap="off" ><div id="slideshow" data-component="slideshow">
+    <div role="list">
+        <div class="slide">
+            <img src="" alt="" class="img">
+        </div>
+        <div class="slide">
+            <img src="" alt="" class="img">
+        </div>
+        <div class="slide">
+            <img src="" alt="" class="img">
+        </div>
+    </div>
+</div></textarea>
+<hr />
+<p>
+          swiffy-sliders
+       </p>
+       <textarea class="kye-meh putih" wrap="off" ><div class="swiffy-slider">
+    <ul class="slider-container">
+        <li>
+            <img src="" style="max-width: 100%;height: auto;">
+        </li>
+        <li>
+            <img src="" style="max-width: 100%;height: auto;">
+        </li>
+        <li>
+            <img src="" style="max-width: 100%;height: auto;">
+        </li>
+    </ul>
+
+    <button type="button" class="slider-nav"></button>
+    <button type="button" class="slider-nav slider-nav-next"></button>
+
+    <div class="slider-indicators">
+        <button class="active"></button>
+        <button></button>
+        <button></button>
+    </div>
+</div></textarea>
+       
+        <hr />
+   <p>
+       swiffy-sliders tutorial
+       <a href="https://swiffyslider.com/" target="_blank">This link..> </a>
+   </p>
+   </details>
+  
+  </section>
+    
+      <section id="Linklist" class="pd8">
+       <details class="detail dbg3">
+       <summary>
+           Linklist
+       </summary>
+       <p>
+          Ada Linklist "ol" dan "ul"..
+       </p>
+       <ul class="">
+    <li>ul class a = normal </li>
+    <li>ul class a = normal</li>
+</ul>
+<ol class="">
+    <li>ol class a = normal </li>
+    <li>ol class a = normal </li>
+</ol>
+<hr />
+<ul class="circle">
+    <li>ul class a = circle </li>
+    <li>ul class a = circle </li>
+</ul>
+<ul class="square">
+    <li>ul class a = square </li>
+    <li>ul class a = square </li>
+</ul>
+<ol class="upper-roman">
+    <li>ul class a = upper-roman </li>
+    <li>ul class a = upper-roman </li>
+</ol>
+<ol class="lower-alpha">
+    <li>ul class a = lower-alpha</li>
+    <li>ul class a = lower-alpha</li>
+</ol>
+<hr />
+       <textarea class="kye-meh putih" wrap="off" ><ul class="">
+    <li>ul class a = normal </li>
+    <li>ul class a = normal</li>
+</ul>
+<ol class="">
+    <li>ol class a = normal </li>
+    <li>ol class a = normal </li>
+</ol>
+<hr />
+<ul class="circle">
+    <li>ul class a = circle </li>
+    <li>ul class a = circle </li>
+</ul>
+<ul class="square">
+    <li>ul class a = square </li>
+    <li>ul class a = square </li>
+</ul>
+<ol class="upper-roman">
+    <li>ul class a = upper-roman </li>
+    <li>ul class a = upper-roman </li>
+</ol>
+<ol class="lower-alpha">
+    <li>ul class a = lower-alpha</li>
+    <li>ul class a = lower-alpha</li>
+</ol>
+<hr /></textarea>
+   </details> 
+  </section>
+    
+      <section id="Card" class="pd8">
+       <details class="detail dbg4">
+       <summary>
+           Card
+       </summary>
+       <p>
+          Ada Card..
+       </p>
+       <textarea class="kye-meh putih" wrap="off" ><div class="kartu-grid3">
+    <div class="kartu-grid3-kolom">
+        <div class="kartu">
+            <img src="g.jpg" alt="" style="width:100%">
+            <div class="kontainer-kartu">
+                <h2>Nelsen Niko</h2>
+                <p class="nama-kartu">
+                    CEO & Founder
+                </p>
+                <p>
+                    teks
+                </p>
+                <p>
+                    nelsen@niko.com
+                </p>
+                <p>
+                    <button class="tmbl-kartu">Contact</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div></textarea>
+   </details> 
+  </section>
+    
+      <section id="Blockquote" class="pd8">
+       <details class="detail dbg0">
+       <summary>
+           Blockquote
+       </summary>
+       <p>
+          Ada Blockquote
+       </p>
+       <blockquote class="kutipan">
+    blockquote class= kutipan
+</blockquote>
+<blockquote class="blockquote">
+    <p>
+        blockquote class= blockquote dan tag "p"
+    </p>
+</blockquote>
+
+<!-- modifikasi -->
+<blockquote class="kutipan bg-fnote1 pd8 r8">
+    blockquote class= kutipan bg-fnote1 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote2 pd8 r8">
+    blockquote class= kutipan bg-fnote2 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote3 pd8 r8">
+    blockquote class= kutipan bg-fnote3 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote4 pd8 r8">
+    blockquote class= kutipan bg-fnote4 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote5 pd8 r8">
+    blockquote class= kutipan bg-fnote5 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote6 pd8 r8">
+    blockquote class= kutipan bg-fnote6 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote7 pd8 r8 putih">
+    blockquote class= kutipan bg-fnote7 pd8 r8 putih
+</blockquote>
+<blockquote class="kutipan bg-fnote8 pd8 r8">
+    blockquote class= kutipan bg-fnote8 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote9 pd8 r8 putih">
+    blockquote class= kutipan bg-fnote9 pd8 r8 putih
+</blockquote>
+<blockquote class="kutipan bg-fnote10 pd8 r8 putih">
+    blockquote class= kutipan bg-fnote10 pd8 r8 putih
+</blockquote>
+
+       <textarea class="kye-meh putih" wrap="off" ><blockquote class="kutipan">
+    blockquote class= kutipan
+</blockquote>
+<blockquote class="blockquote">
+    <p>
+        blockquote class= blockquote dan tag "p"
+    </p>
+</blockquote>
+
+<!-- modifikasi -->
+<blockquote class="kutipan bg-fnote1 pd8 r8">
+    blockquote class= kutipan bg-fnote1 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote2 pd8 r8">
+    blockquote class= kutipan bg-fnote2 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote3 pd8 r8">
+    blockquote class= kutipan bg-fnote3 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote4 pd8 r8">
+    blockquote class= kutipan bg-fnote4 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote5 pd8 r8">
+    blockquote class= kutipan bg-fnote5 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote6 pd8 r8">
+    blockquote class= kutipan bg-fnote6 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote7 pd8 r8 putih">
+    blockquote class= kutipan bg-fnote7 pd8 r8 putih
+</blockquote>
+<blockquote class="kutipan bg-fnote8 pd8 r8">
+    blockquote class= kutipan bg-fnote8 pd8 r8
+</blockquote>
+<blockquote class="kutipan bg-fnote9 pd8 r8 putih">
+    blockquote class= kutipan bg-fnote9 pd8 r8 putih
+</blockquote>
+<blockquote class="kutipan bg-fnote10 pd8 r8 putih">
+    blockquote class= kutipan bg-fnote10 pd8 r8 putih
+</blockquote>
+</textarea>
+   </details> 
+   
+   
+  </section>
+      <section id="Gambar" class="pd8">
+       <details class="detail dbg1">
+       <summary>
+           Gambar 
+       </summary>
+       <p>
+          Ada Konten Gambar 
+       </p>
+       <textarea class="kye-meh putih" wrap="off" ><div class="foto-grid4col">
+    <div class="ft-grid4col-items">
+        <img class="img-konten" src="" alt="" />
+        <div class="ket">
+            ini gambar 1 foto
+        </div>
+        <!-- vertikal layout di PC
+        <img class="img-konten" src="" alt="" />
+        <div class="ket">
+            ini gambar 2 foto
+        </div>
+        <img class="img-konten" src="" alt="" />
+        <div class="ket">
+            ini gambar 3 foto
+        </div>
+        <img class="img-konten" src="" alt="" />
+        <div class="ket">
+            ini gambar 4 foto
+        </div>
+        -->
+    </div>
+    <!-- horizontal layout di PC 
+    <div class="ft-grid4col-items">
+        <img class="img-konten" src="" alt="" />
+        <div class="ket">
+            ini gambar 2 foto
+        </div>
+    </div>
+     <div class="ft-grid4col-items">
+        <img class="img-konten" src="" alt="" />
+        <div class="ket">
+            ini gambar 2 foto
+        </div>
+    </div>
+     <div class="ft-grid4col-items">
+        <img class="img-konten" src="" alt="" />
+        <div class="ket">
+            ini gambar 2 foto
+        </div>
+    </div>
+    -->
+</div>
+
+<!--
+selain ft-grid4col, bisa juga menggunakan grid konten sebagai layout,
+--></textarea> <br /> <br />
+<a href="#Grid">
+    <button class="btn-sm lawrencium putih r8" type="submit">coba Grid Konten</button>
+</a>
+   </details> 
+  </section>
+  
+    <section id="Form" class="pd8">
+       <details class="detail dbg2">
+       <summary>
+           Form
+       </summary>
+       <p>
+          Ada Form cari/filter..grid 1 Layout 
+       </p>
+        <form class='searchbox'>
+                <input class="searchbar" type="text" onkeyup="filter()" placeholder="Search.." name="search">
+            </form>
+       <textarea class="kye-meh putih" wrap="off" >
+<form class='searchbox'>
+    <input class="searchbar" type="text" onkeyup="filter()" placeholder="Search.." name="search">
+</form></textarea>
+      
+         <p>
+          Ada Form cari data tabel
+       </p>
+       <input type="text" id="ketikkan" onkeyup="fungsicariTabell()" placeholder="cari nama..">
+<!-- tambah id tabel = caritabel -->
+       <textarea class="kye-meh putih" wrap="off" ><input type="text" id="ketikkan" onkeyup="fungsicariTabel()" placeholder="cari nama..">
+<!-- tambah id tabel = caritabel --></textarea>
+       
+         <p>
+          Ada Form login
+       </p>
+        <section class="login-container">
+        <div class="login-content">
+            <h2 class="">Login Page</h2>
+            <form id="#" method="get" action="#">
+                <label class=""><b>User Name</b></label>
+                <input type="text" name="Uname" class="Uname" placeholder="Username"> <br /> <br />
+                <label class=""><b>Password</b></label>
+                <input type="password" name="Pass" class="Pass" placeholder="Password"> <br /> <br />
+                <button class="log" type="submit">Login</button>
+                <br /> <br /> <br />
+                <hr />
+                <input type="checkbox" id="check">
+                <span class="">Remember me</span>
+                <hr />
+                <br />
+                <p class="">
+                    Lupa <a href="#">Password ?</a>
+                </p>
+            </form>
+        </div>
+    </section>
+       <textarea class="kye-meh putih" wrap="off" ><!-- login page default -->
+<section class="login-container">
+    <div class="login-content">
+        <h2 class="">Login Page</h2>
+        <form id="#" method="get" action="#">
+            <label class=""><b>User Name</b></label>
+            <input type="text" name="Uname" class="Uname" placeholder="Username"> <br /> <br />
+            <label class=""><b>Password</b></label>
+            <input type="password" name="Pass" class="Pass" placeholder="Password"> <br /> <br />
+            <button class="log" type="submit">Login</button>
+            <br /> <br /> <br />
+            <hr />
+            <input type="checkbox" id="check">
+            <span class="">Remember me</span>
+            <hr />
+            <br />
+            <p class="">
+                Lupa <a href="#">Password ?</a>
+            </p>
+        </form>
+    </div>
+</section>
+
+<!-- login page modifikasi -->
+<div class="login-container">
+    <div class="login-content bg-merah">
+        <h2 class="putih">Login Page</h2>
+        <form id="#" method="get" action="#">
+            <label class="bg-kuning putih"><b>User Name</b></label>
+            <input type="text" name="Uname" class="Uname pink" placeholder="Username"> <br /> <br />
+            <label class="bg-hijau putih"><b>Password</b></label>
+            <input type="password" name="Pass" class="Pass pink" placeholder="Password"> <br /> <br />
+            <button class="log" type="submit">Login</button>
+            <br /> <br /> <br />
+            <hr />
+            <input type="checkbox" id="check">
+            <span class="putih">Remember me</span>
+            <hr />
+            <br />
+            <p class="putih">
+                Lupa <a class="kuning" href="#">Password ?</a>
+            </p>
+        </form>
+    </div>
+</div></textarea>
+       
+   </details> 
+  </section>
+  
+    
+</section>
+        </div>
+        <!-- akhir konten 1 -->
+        <!-- isi konten 2 -->
+        <div class="utama tengah bg-magenta">
+            
+                    
+                    
+                    
+<!--
+ <p class="bg pd5 r8 hitam">
+                        Template Float 
+                    </p>
+                    <textarea class="textarea3 lawrencium putih" wrap="off" ></textarea>
+                    <br /> <br />
+                    
+                     <p class="bg pd5 r8 hitam">
+                        Template Grid 1
+                    </p>
+                    <textarea class="textarea3 lawrencium putih" wrap="off" ></textarea>
+                    <br /> <br />
+ <p class="bg pd5 r8 hitam">
+                        Template Grid 2
+                    </p>
+                    <textarea class="textarea3 lawrencium putih" wrap="off" ></textarea>
+                    <br /> <br />
+                    
+                     <p class="bg pd5 r8 hitam">
+                        Template Grid 3
+                    </p>
+                    <textarea class="textarea3 lawrencium putih" wrap="off" ></textarea>
+                    <br /> <br />
+
+-->
+
+        
+        <section id="Navigasi" class="border r4">
+            <h2 class="bg-biru pd8 r8">Navigasi</h2>
+
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh 1
+                </p>
+                <div class="nav2" id="nav2">
+                    <a href="#" class="active">Beranda</a>
+                    <a href="#">Berita</a>
+                    <a href="#">Hubungi</a>
+                    <a href="#">Tanya</a>
+                    <a href="#">Unduh</a>
+                    <a href="javascript:void(0);" class="icon" onclick="nav2Function()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code 1
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><div class="nav2" id="nav2">
+    <a href="#" class="active">Beranda</a>
+    <a href="#">Berita</a>
+    <a href="#">Hubungi</a>
+    <a href="#">Tanya</a>
+    <a href="#">Unduh</a>
+    <a href="javascript:void(0);" class="icon" onclick="nav2Function()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div></textarea>
+            </div>
+            <br />
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh 2
+                </p>
+                <div class="nav" id="nav">
+                    <a href="#" class="active">Beranda</a>
+                    <a href="#">Berita</a>
+                    <a href="#">Hubungi</a>
+                    <a href="#">Tanya</a>
+                    <a href="#">Unduh</a>
+                    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code 2
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><div class="nav" id="nav">
+    <a href="#" class="active">Beranda</a>
+    <a href="#">Berita</a>
+    <a href="#">Hubungi</a>
+    <a href="#">Tanya</a>
+    <a href="#">Unduh</a>
+    <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div></textarea>
+            </div>
+            <br />
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh 3
+                </p>
+                <div class="nav-ping" id="nav-ping">
+                    <a href="#" class="active">Beranda</a>
+                    <a href="#">Berita</a>
+                    <a href="#">Hubungi</a>
+                    <a href="#">Tanya</a>
+                    <a href="#">Unduh</a>
+                    <a href="javascript:void(0);" class="icon" onclick="pingFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code 3
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><div class="nav-ping" id="nav-ping">
+    <a href="#" class="active">Beranda</a>
+    <a href="#">Berita</a>
+    <a href="#">Hubungi</a>
+    <a href="#">Tanya</a>
+    <a href="#">Unduh</a>
+    <a href="javascript:void(0);" class="icon" onclick="pingFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div></textarea>
+            </div>
+            <br />
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh 4
+                </p>
+                <div class="nav-hijau" id="nav-hijau">
+                    <a href="#" class="active">Beranda</a>
+                    <a href="#">Berita</a>
+                    <a href="#">Hubungi</a>
+                    <a href="#">Tanya</a>
+                    <a href="#">Unduh</a>
+                    <a href="javascript:void(0);" class="icon" onclick="hijauFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><div class="nav-hijau" id="nav-hijau">
+    <a href="#" class="active">Beranda</a>
+    <a href="#">Berita</a>
+    <a href="#">Hubungi</a>
+    <a href="#">Tanya</a>
+    <a href="#">Unduh</a>
+    <a href="javascript:void(0);" class="icon" onclick="hijauFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div></textarea>
+            </div>
+
+            <blockquote class="kutipan">
+                <small class="b i bg hitam pd2 r2">navigasi lain:</small>
+                <hr />
+                <p>
+                    nav-kuning; onclick="kuningFunction()"
+                </p>
+                <hr />
+                <p>
+                    nav-biru;
+                    onclick="biruFunction()"
+                </p>
+                <hr />
+                <p>
+                    nav-ping;
+                    onclick="pingFunction()"
+                </p>
+                <hr />
+            </blockquote>
+<p class="bg pd5 r8 hitam">
+    Navigasi Dropdown
+</p>
+<textarea class="textarea2 lawrencium putih" wrap="off" ><nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+        <li><a href='#'>Beranda</a></li>
+        <li><a class='dropdown-arrow' href='#'>Products</a>
+            <ul class='sub-menus'>
+                <li><a href='#'>Products 1</a></li>
+                <li><a href='#'>Products 2</a></li>
+                <li><a href='#'>Products 3</a></li>
+                <li><a href='#'>Products 4</a></li>
+            </ul>
+        </li>
+        <li><a href='#'>About</a></li>
+        <li><a class='dropdown-arrow' href='#'>Services</a>
+            <ul class='sub-menus'>
+                <li><a href='#'>Services 1</a></li>
+                <li><a href='#'>Services 2</a></li>
+                <li><a href='#'>Services 3</a></li>
+            </ul>
+        </li>
+        <li><a href='#'>Contact Us</a></li>
+    </ul>
+</nav></textarea>
+    
+
+
+
+        </section>
+        <section id="Blok" class="border r4">
+            <h2 class="bg-biru pd5 r8">Blok</h2>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh 1
+                </p>
+                <div class="blok hitam">
+                    <h2 class="u30px">Welcome to Framecss</h2>
+                    <p>
+                        <i>versi</i> <small>3</small> <b>Alpha</b>
+                    </p>
+                    <small class="">Indonesia</small>
+                </div>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea4 lawrencium putih" wrap="off" ><div class="blok hitam">
+    <h2 class="u30px">Welcome to Framecss</h2>
+    <p>
+        <i>versi</i> <small>3</small> <b>Alpha</b>
+    </p>
+    <small class="">Indonesia</small>
+</div></textarea>
+                <br /> <br />
+                <p class="bg pd5 r8 hitam">
+                    tambah bg-NamaWarnaBackground, misalnya bg-merah, bg-biru, bg-oren
+                </p>
+                <div class="blok bg-merah">
+                    <h2 class="u30px">Welcome to Framecss</h2>
+                    <p>
+                        <i>versi</i> <small>3</small> <b>Alpha</b>
+                    </p>
+                    <small class="">Indonesia</small>
+                </div>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea4 lawrencium putih" wrap="off" ><div class="blok bg-merah">
+    <h2 class="u30px">Welcome to Framecss</h2>
+    <p>
+        <i>versi</i> <small>3</small> <b>Alpha</b>
+    </p>
+    <small class="">Indonesia</small>
+</div></textarea>
+                <br /><br />
+            </div>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh lainnya
+                </p>
+                <div class="blok-hijau">
+                    <h2 class="u30px">Welcome to Framecss</h2>
+                    <p>
+                        <i>versi</i> <small>3</small> <b>Alpha</b>
+                    </p>
+                    <small class="">Indonesia</small>
+                </div>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea4 lawrencium putih" wrap="off" ><div class="blok-hijau">
+    <h2 class="u30px">Welcome to Framecss</h2>
+    <p>
+        <i>versi</i> <small>3</small> <b>Alpha</b>
+    </p>
+    <small class="">Indonesia</small>
+</div></textarea>
+                <br /> <br />
+                <p class="bg pd5 r8 hitam">
+                    <i>class</i> blok lainnya: blok-ping, blok-kuning, blok-ungu, blok-magenta, blok-teal
+                </p>
+            </div>
+        </section>
+        <section id="Modals" class="border r4">
+            <h2 id="" class="bg-biru pd5 r8">Modals</h2>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh 1
+                </p>
+                <button id="modal-btn" class="tombol-hijau r8">Modal Hijau</button>
+                <br /> <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea5 lawrencium putih" wrap="off" ><div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+            <p>
+                Some text in the Modal Body
+            </p>
+            <p>
+                Some other text...
+            </p>
+        </div>
+        <div class="modal-footer">
+            <h3>Modal Footer</h3>
+        </div>
+    </div>
+</div></textarea>
+<br /> <br />
+                
+                 <p class="bg pd5 r8 hitam">
+                    Contoh 2
+                </p>
+                <button id="modalbiru-btn" class="tombol-biru r12">Modal Biru</button>
+                <br /> <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea5 lawrencium putih" wrap="off" ><div id="myModal-biru" class="modalbiru">
+    <div class="modalbiru-content-biru">
+        <div class="modalbiru-header-biru">
+            <span class="closebiru">&times;</span>
+            <h2>Modal Header</h2>
+        </div>
+        <div class="modalbiru-body-biru">
+            <p>
+                Some text in the Modal Body
+            </p>
+            <p>
+                Some other text...
+            </p>
+        </div>
+        <div class="modalbiru-footer-biru">
+            <h3>Modal Footer</h3>
+        </div>
+    </div>
+</div></textarea>
+                <br /> <br />
+                 <p class="bg pd5 r8 hitam">
+                    Contoh lainnya:
+                </p>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea6 lawrencium putih" wrap="off" ><!-- awal modal magenta -->
+<div id="myModal-mag" class="modalmag">
+    <div class="modalmag-content-mag">
+        <div class="modalmag-header-mag">
+            <span class="closemag">&times;</span>
+            <h2>Modal Header</h2>
+        </div>
+        <div class="modalmag-body-mag">
+            <p>
+                Some text in the Modal Body
+            </p>
+            <p>
+                Some other text...
+            </p>
+        </div>
+        <div class="modalmag-footer-mag">
+            <h3>Modal Footer</h3>
+        </div>
+    </div>
+</div>
+<!-- akhir modal magenta -->
+
+<!-- awal modal oren -->
+<div id="myModal-oren" class="modaloren">
+    <div class="modaloren-content-oren">
+        <div class="modaloren-header-oren">
+            <span class="closeoren">&times;</span>
+            <h2>Modal Header</h2>
+        </div>
+        <div class="modaloren-body-oren">
+            <p>
+                Some text in the Modal Body
+            </p>
+            <p>
+                Some other text...
+            </p>
+        </div>
+        <div class="modaloren-footer-oren">
+            <h3>Modal Footer</h3>
+        </div>
+    </div>
+</div>
+<!-- akhir modal oren -->
+
+<!-- awal modal merah -->
+<div id="myModal-merah" class="modalmerah">
+    <div class="modalmerah-content-merah">
+        <div class="modalmerah-header-merah">
+            <span class="closemerah">&times;</span>
+            <h2>Modal Header</h2>
+        </div>
+        <div class="modalmerah-body-merah">
+            <p>
+                Some text in the Modal Body
+            </p>
+            <p>
+                Some other text...
+            </p>
+        </div>
+        <div class="modalmerah-footer-merah">
+            <h3>Modal Footer</h3>
+        </div>
+    </div>
+</div>
+<!-- akhir modal merah --></textarea>
+              <!--  <br /> <br />
+                 <p class="bg pd5 r8 hitam">
+                    Contoh 4
+                </p>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea5 lawrencium putih" wrap="off" ></textarea>
+           -->
+           
+            </div>
+        </section>
+        <section id="Button" class="border r4 bg1 hitam">
+            <h2 id="" class="bg-biru pd5 r8 putih">Button</h2>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh Button Grup Horizontal 
+                </p>
+                <div class="grup-tmb putih" style="width:">
+    <button class="r12 frame expand" judul="tombol ini radius 12px" onclick="" style="width:">AcdEF</button>
+    <button class="u20px frame swing" judul="tombol ini radius 20px" onclick="" style="width:">BcDefG</button>
+    <button class="u10px" onclick="" style="width:">Cdefg</button>
+    <button class="r8px" onclick="" style="width:">DefGh</button>
+    <button class="u1px" onclick="" style="width:">EfGhij</button>
+</div>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><div class="grup-tmb" style="width:">
+    <button class="r12 frame expand" judul="tombol ini radius 12px" onclick="" style="width:">AcdEF</button>
+    <button class="u20px frame swing" judul="tombol ini radius 20px" onclick="" style="width:">BcDefG</button>
+    <button class="u10px" onclick="" style="width:">Cdefg</button>
+    <button class="r8px" onclick="" style="width:">DefGh</button>
+    <button class="u1px" onclick="" style="width:">EfGhij</button>
+</div></textarea>
+                <br /> <br />
+                
+                 <p class="bg pd5 r8 hitam">
+                    Contoh Button Grup Vertikal 
+                </p>
+                <div class="grup-tmb-v putih" style="width:auto">
+    <p class="hitam">
+        grup vertikal : animasi bg- berubah
+    </p>
+    <button class="frame fade" judul="ukuran 50%" onclick="" style="width:50%">Abcde</button>
+    <button onclick="" style="width:50%">BcDefg</button>
+    <button class="frame aframe" onclick="" style="width:50%">CdEfgh
+        <span class="teks">tombol ini ukuran 50%</span></button>
+    <button onclick="" style="width:90%">DefGHi</button>
+    <button onclick="" style="width:40%">EFgHI</button>
+    <button onclick="" style="width:15%">F</button>
+    <button onclick="" style="width:60%">G</button>
+    <br />
+</div>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><div class="grup-tmb-v" style="width:auto">
+    <p>
+        grup vertikal : animasi bg-putih berubah
+    </p>
+    <button class="frame fade" judul="ukuran 50%" onclick="" style="width:50%">Abcde</button>
+    <button onclick="" style="width:50%">BcDefg</button>
+    <button class="frame aframe" onclick="" style="width:50%">CdEfgh
+        <span class="teks">tombol ini ukuran 50%</span></button>
+    <button onclick="" style="width:90%">DefGHi</button>
+    <button onclick="" style="width:40%">EFgHI</button>
+    <button onclick="" style="width:15%">F</button>
+    <button onclick="" style="width:60%">G</button>
+    <br />
+</div></textarea>
+                <br /> <br />
+                
+                <p class="bg pd5 r8 hitam">
+                    Contoh Button 
+                </p>
+                <button class="tombol layang-merah u10px" type="submit">Tombol</button>
+<button class="tombol-kuning r12" type="submit">tombol-kuning</button>
+<button class="tombol-ping r8px layang" type="submit">tombol-ping</button>
+<button class="tombol-magenta u25px layang-hijau" type="submit">tombol-magenta</button>
+
+<button class="btn" type="submit">btn</button>
+<button class="btn success" type="submit">btn success</button>
+<button class="btn danger" type="submit">btn danger</button>
+<button class="btn info" type="submit">btn info</button>
+<button class="btn warning" type="submit">btn warning</button>
+<button class="btn default" type="submit">btn default</button>
+
+<button class="sublime-light none putih r12 btn-lg" type="submit">btn-lg</button>
+<button class="amin none putih r8 btn-sm" type="submit">btn-sm</button>
+
+
+<button class="button putih bg-merah" type="submit">button</button>
+<button class="button success" type="submit">button success</button>
+<button class="button danger" type="submit">button danger</button>
+                <br /> <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><button class="tombol layang-merah u10px" type="submit">Tombol</button>
+<button class="tombol-kuning r12" type="submit">tombol-kuning</button>
+<button class="tombol-ping r8px layang" type="submit">tombol-ping</button>
+<button class="tombol-magenta u25px layang-hijau" type="submit">tombol-magenta</button>
+
+<button class="btn" type="submit">btn</button>
+<button class="btn success" type="submit">btn success</button>
+<button class="btn danger" type="submit">btn danger</button>
+<button class="btn info" type="submit">btn info</button>
+<button class="btn warning" type="submit">btn warning</button>
+<button class="btn default" type="submit">btn default</button>
+
+<button class="sublime-light none putih r12 btn-lg" type="submit">btn-lg</button>
+<button class="amin none putih r8 btn-sm" type="submit">btn-sm</button>
+
+
+<button class="button putih bg-merah" type="submit">button</button>
+<button class="button success" type="submit">button success</button>
+<button class="button danger" type="submit">button danger</button></textarea>
+            </div>
+        </section>
+        <section id="Tabel" class="border r4 bg1">
+            <h2 id="" class="bg-biru pd5 r8">Tabel</h2>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh
+                </p>
+                <table class="tabel l100">
+    <tr>
+        <th>no</th>
+        <th>nama</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>nelsen</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>niko</td>
+    </tr>
+</table>
+                <br /> 
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                
+                <br /> 
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><table class="tabel l100">
+    <tr>
+        <th>no</th>
+        <th>nama</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>nelsen</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>niko</td>
+    </tr>
+</table></textarea>
+                <br /> <br />
+                
+                <p class="bg pd5 r8 hitam">
+                    Contoh 2
+                </p>
+                 
+                <table id="" class="tabel-hijau">
+    <tr>
+        <th>no</th>
+        <th>nama</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>nelsen</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>niko</td>
+    </tr>
+</table>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code 2
+                </p>
+                <br />
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><table class="tabel-hijau">
+    <tr>
+        <th>no</th>
+        <th>nama</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>nelsen</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>niko</td>
+    </tr>
+</table></textarea>
+                <br /> <br />
+                
+                <p class="bg pd5 r8 hitam">
+                    Contoh lainnya:
+                </p>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <br />
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><!-- akhir tabel merah -->
+<table class="tabel-merah">
+    <tr>
+        <th>no</th>
+        <th>nama</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>nelsen</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>niko</td>
+    </tr>
+</table>
+<!-- akhir tabel merah -->
+
+<!-- awal  tabel oren -->
+<table class="tabel-oren">
+    <tr>
+        <th>no</th>
+        <th>nama</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>nelsen</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>niko</td>
+    </tr>
+</table>
+<!-- akhir tabel oren -->
+
+<!-- awal  tabel magenta -->
+<table class="tabel-magenta">
+    <tr>
+        <th>no</th>
+        <th>nama</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>nelsen</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>niko</td>
+    </tr>
+</table>
+<!-- akhir tabel magenta -->
+
+
+</textarea>
+                <br />
+            </div>
+        </section>
+        <section id="Warna" class="border r4 bg-putih">
+            <h2 id="" class="bg-biru pd5 r8">Warna</h2>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh 1
+                </p>
+               
+                 <table id="" class="tabel-magenta l100 hitam" border="">
+        <tr>
+            <th colspan="2">class=" "</th>
+            <th rowspan="2">warna</th>
+        </tr>
+        <tr>
+
+            <th>Indonesia</th>
+            <th>Inggris</th>
+        </tr>
+        <tr>
+            <td>hijau</td>
+            <td>green</td>
+            <td class="bg-hijau"></td>
+        </tr>
+        <tr>
+            <td>oren</td>
+            <td>orange</td>
+            <td class="bg-orange"></td>
+        </tr>
+        <tr>
+            <td>kuning</td>
+            <td>yellow</td>
+            <td class="bg-kuning"></td>
+        </tr>
+        <tr>
+            <td>biru</td>
+            <td>blue</td>
+            <td class="bg-blue"></td>
+        </tr>
+        <tr>
+            <td>merah</td>
+            <td>red</td>
+            <td class="bg-merah"></td>
+        </tr>
+        
+         <tr>
+            <td>ping</td>
+            <td>pink</td>
+            <td class="bg-pink"></td>
+        </tr>
+        <tr>
+            <td>ungu</td>
+            <td>purple</td>
+            <td class="bg-ungu"></td>
+        </tr>
+        <tr>
+            <td>coklat</td>
+            <td>brown</td>
+            <td class="bg-brown"></td>
+        </tr>
+         <tr>
+            <td>hitam</td>
+            <td>black</td>
+            <td class="bg-hitam"></td>
+        </tr>
+         <tr>
+            <td>putih</td>
+            <td>white</td>
+            <td class="bg-white"></td>
+        </tr>
+        <tr>
+            <td>magenta</td>
+            <td>magenta</td>
+            <td class="bg-magenta"></td>
+        </tr>
+        <tr>
+            <td>olive</td>
+            <td>olive</td>
+            <td class="bg-olive"></td>
+        </tr>
+        
+          <tr>
+            <td>emerald</td>
+            <td>emerald</td>
+            <td class="bg-emerald"></td>
+        </tr>
+        <tr>
+            <td>amber</td>
+            <td>amber</td>
+            <td class="bg-amber"></td>
+        </tr>
+        <tr>
+            <td>teal</td>
+            <td>teal</td>
+            <td class="bg-teal"></td>
+        </tr>
+        <tr>
+            <td>lime</td>
+            <td>lime</td>
+            <td class="bg-lime"></td>
+        </tr>
+        <tr>
+            <td>steel</td>
+            <td>steel</td>
+            <td class="bg-steel"></td>
+        </tr>
+        
+         <tr>
+            <td>cobalt</td>
+            <td>cobalt</td>
+            <td class="bg-cobalt"></td>
+        </tr>
+        <tr>
+            <td>mauve</td>
+            <td>mauve</td>
+            <td class="bg-mauve"></td>
+        </tr>
+        <tr>
+            <td>taupe</td>
+            <td>taupe</td>
+            <td class="bg-taupe"></td>
+        </tr>
+        <tr>
+            <td>crimson</td>
+            <td>crimson</td>
+            <td class="bg-crimson"></td>
+        </tr>
+        <tr>
+             <th colspan="3" class="rt-kiri">contoh : class="red" <i class="red pd5">[]</i>; class="hijau" <i class="hijau pd5">[]</i>; class="oren" <i class="oren pd5">[]</i> .... untuk Background, tambahkan "bg-" didepan nama warna. contoh : bg-hijau, bg-magenta, bg-ungu, bg-blue, bg-purple..</th>
+        </tr>
+    </table>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                   > Code
+                </p>
+                <textarea class="textarea lawrencium putih" wrap="off" >class="merah", class="biru", class="yellow", class="blue"</textarea>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    Contoh
+                </p>
+                 <table class="tabel-kuning hitam" border="">
+        <tr>
+            <th colspan="2">class=" "</th>
+            <th rowspan="2">warna</th>
+        </tr>
+        <tr>
+
+            <th>Indonesia</th>
+            <th>Inggris</th>
+        </tr>
+        <tr>
+            <td>bs-hijau</td>
+            <td>bs-green</td>
+            <td class="lbs-hijau"></td>
+        </tr>
+        <tr>
+            <td>bs-oren</td>
+            <td>bs-orange</td>
+            <td class="lbs-orange"></td>
+        </tr>
+        <tr>
+            <td>bs-kuning</td>
+            <td>bs-yellow</td>
+            <td class="lbs-kuning"></td>
+        </tr>
+        <tr>
+            <td>bs-biru</td>
+            <td>bs-blue</td>
+            <td class="lbs-blue"></td>
+        </tr>
+        <tr>
+            <td>bs-merah</td>
+            <td>bs-red</td>
+            <td class="lbs-merah"></td>
+        </tr>
+        
+         <tr>
+            <td>bs-ping</td>
+            <td>bs-pink</td>
+            <td class="lbs-ping"></td>
+        </tr>
+        <tr>
+            <td>bs-ungu</td>
+            <td>bs-purple</td>
+            <td class="lbs-ungu"></td>
+        </tr>
+        <tr>
+            <td>bs-teal</td>
+            <td>bs-teal</td>
+            <td class="lbs-teal"></td>
+        </tr>
+         <tr>
+            <td>bs-abu</td>
+            <td>bs-gray</td>
+            <td class="lbs-abu"></td>
+        </tr>
+         <tr>
+            <td>bs-indigo</td>
+            <td>bs-indigo</td>
+            <td class="lbs-indigo"></td>
+        </tr>
+         <tr>
+            <td>bs-cyan</td>
+            <td>bs-cyan</td>
+            <td class="lbs-cyan"></td>
+        </tr>
+        <tr>
+             <th colspan="3" class="rt-kiri">contoh : class="bs-merah" <i class="bs-merah pd5">[]</i>; class="bs-hijau" <i class="bs-hijau pd5">[]</i>; class="bs-oren" <i class="bs-oren pd5">[]</i> .... untuk background: tambahkan "l" didepan "bs-".. contoh lbs-indigo, lbs-merah, lbs-ping</th>
+        </tr>
+    </table>
+    
+                <br />
+                <p class="bg pd5 r8 hitam">
+                   > Code
+                </p>
+                <textarea class="textarea lawrencium putih" wrap="off" >class="bs-hijau", class="bs-oren", ... bs-indigo, bs-ungu</textarea>
+            </div>
+        </section>
+        <section id="Background" class="border r4">
+            <h2 id="" class="bg-biru pd5 r8">Background</h2>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh 1 : gunakan "bg-"
+                </p>
+                <p class="bg-hijau putih pd5">bg-hijau, teks putih, padding 5 px</p><p class="bg-kuning hitam pd3">
+    bg-kuning, teks hitam, padding 3 px
+</p>
+<p class="bg-ungu putih pd8 r12">
+    bg-ungu, teks putih, padding 8 px, radius 12px
+</p>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><p class="bg-hijau putih pd5">
+    bg-hijau, teks putih, padding 5 px
+</p><p class="bg-kuning hitam pd3">
+    bg-kuning, teks hitam, padding 3 px
+</p>
+<p class="bg-ungu putih pd8 r12">
+    bg-ungu, teks putih, padding 8 px, radius 12px
+</p></textarea>
+<br /> <br />
+                <p class="bg pd5 r8 hitam">
+                    Contoh 2: gunakan "lbs-"
+                </p>
+                <p class="lbs-biru putih pd5">
+    lbs-biru, teks putih, padding 5 px
+</p><p class="lbs-kuning hitam pd3">
+    lbs-kuning, teks hitam, padding 3 px
+</p>
+<p class="lbs-ungu putih pd8 r8">
+    lbs-ungu, teks putih, padding 8 px, radius 8px
+</p>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    > Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><p class="lbs-biru putih pd5">
+    lbs-biru, teks putih, padding 5 px
+</p><p class="lbs-kuning hitam pd3">
+    lbs-kuning, teks hitam, padding 3 px
+</p>
+<p class="lbs-ungu putih pd8 r8">
+    lbs-ungu, teks putih, padding 8 px, radius 8px
+</p></textarea>
+<br /> <br />
+<p class="bg pd5 r8 hitam">
+                    Contoh Background Gradient
+                </p>
+                <section class="bg pd10">
+                <h4 class="sublime-light white">Framecss 3 Background Color sublime-light</h4>
+<h4 class="dusty-grass hitam">Framecss 3 Background Color dusty-grass</h4>
+<h4 class="kye-meh white">Framecss 3 Background Color kye-meh</h4>
+<h4 class="amin putih">Framecss 3 Background Color amin</h4>
+<h4 class="megatron hitam">Framecss 3 Background Color megatron</h4>
+<h4 class="ohhappiness putih">Framecss 3 Background Color ohhappiness</h4>
+<h4 class="lawrencium putih">Framecss 3 Background Color lawrencium</h4>
+<h4 class="crystalline hitam">Framecss 3 Background Color crystalline</h4>
+<h4 class="premium-dark putih">Framecss 3 Background Color premium-dark</h4>
+<h4 class="pink-fish putih">Framecss 3 Background Color pink-fish</h4>
+<h4 class="fresh-air hitam">Framecss 3 Background Color fresh-air</h4>
+<h4 class="cherry-blossom putih">Framecss 3 Background Color cherry-blossom</h4>
+<h4 class="sea-lord hitam">Framecss 3 Background Colorsl sea-lord</h4>
+ </section>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                    >  Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><h4 class="sublime-light white">Framecss 3 Background Color sublime-light</h4>
+<h4 class="dusty-grass">Framecss 3 Background Color dusty-grass</h4>
+<h4 class="kye-meh white">Framecss 3 Background Color kye-meh</h4>
+<h4 class="amin putih">Framecss 3 Background Color amin</h4>
+<h4 class="megatron">Framecss 3 Background Color megatron</h4>
+<h4 class="ohhappiness putih">Framecss 3 Background Color ohhappiness</h4>
+<h4 class="lawrencium putih">Framecss 3 Background Color lawrencium</h4>
+<h4 class="crystalline">Framecss 3 Background Color crystalline</h4>
+<h4 class="premium-dark putih">Framecss 3 Background Color premium-dark</h4>
+<h4 class="pink-fish putih">Framecss 3 Background Color pink-fish</h4>
+<h4 class="fresh-air">Framecss 3 Background Color fresh-air</h4>
+<h4 class="cherry-blossom putih">Framecss 3 Background Color cherry-blossom</h4>
+<h4 class="sea-lord">Framecss 3 Background Colorsl sea-lord</h4></textarea>
+
+            </div>
+        </section>
+        <section id="Animasi" class="border r4">
+            <h2 id="" class="bg-biru pd5 r8">Animasi</h2>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh
+                </p>
+                <p class="animate__animated animate__bounce">ini animasi animate__animated animate__bounce</p>
+                 <p class="animate__animated animate__pulse">ini animasi animate__animated animate__pulse</p>
+                 <p class="animate__animated animate__flash">
+    ini animasi animate__animated animate__flash</p>
+<p class="animate__animated animate__rubberBand">
+    ini animasi animate__animated animate__rubberBand
+</p>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                   > Code : tambahkan animate__animated + animate__NAMA-ANIMASI
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><p class="animate__animated animate__bounce">
+    ini animasi animate__animated animate__bounce
+</p>
+<p class="animate__animated animate__pulse">
+    ini animasi animate__animated animate__pulse
+</p>
+<p class="animate__animated animate__flash">
+    ini animasi animate__animated animate__flash
+</p>
+<p class="animate__animated animate__rubberBand">
+    ini animasi animate__animated animate__rubberBand
+</p></textarea>
+                <br /> <br />
+                <p class="bg pd5 r8 hitam">
+                   > Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" >nama class :
+
+animate__bounce
+
+animate__flash
+
+animate__pulse
+
+animate__rubberBand
+
+animate__shakeX
+
+animate__shakeY
+
+animate__headShake
+
+animate__tada
+
+nama lainnya:
+
+1. Attention seekers
+
+bounce
+
+flash
+
+pulse
+
+rubberBand
+
+shakeX
+
+shakeY
+
+headShake
+
+swing
+
+tada
+
+wobble
+
+jello
+
+heartBeat
+
+2. Back entrances
+
+backInDown
+
+backInLeft
+
+backInRight
+
+backInUp
+
+3. Back exits
+
+backOutDown
+
+backOutLeft
+
+backOutRight
+
+backOutUp
+
+4. Bouncing entrances
+
+bounceIn
+
+bounceInDown
+
+bounceInLeft
+
+bounceInRight
+
+bounceInUp
+
+5. Bouncing exits
+
+bounceOut
+
+bounceOutDown
+
+bounceOutLeft
+
+bounceOutRight
+
+bounceOutUp
+
+6. Fading entrances
+
+fadeIn
+
+fadeInDown
+
+fadeInDownBig
+
+fadeInLeft
+
+fadeInLeftBig
+
+fadeInRight
+
+fadeInRightBig
+
+fadeInUp
+
+fadeInUpBig
+
+fadeInTopLeft
+
+fadeInTopRight
+
+fadeInBottomLeft
+
+fadeInBottomRight
+
+7. Fading exits
+
+fadeOut
+
+fadeOutDown
+
+fadeOutDownBig
+
+fadeOutLeft
+
+fadeOutLeftBig
+
+fadeOutRight
+
+fadeOutRightBig
+
+fadeOutUp
+
+fadeOutUpBig
+
+fadeOutTopLeft
+
+fadeOutTopRight
+
+fadeOutBottomRight
+
+fadeOutBottomLeft
+
+8. Flippers
+
+flip
+
+flipInX
+
+flipInY
+
+flipOutX
+
+flipOutY
+
+9. Lightspeed
+
+lightSpeedInRight
+
+lightSpeedInLeft
+
+lightSpeedOutRight
+
+lightSpeedOutLeft
+
+10. Rotating entrances
+
+rotateIn
+
+rotateInDownLeft
+
+rotateInDownRight
+
+rotateInUpLeft
+
+rotateInUpRight
+
+11. Rotating exits
+
+rotateOut
+
+rotateOutDownLeft
+
+rotateOutDownRight
+
+rotateOutUpLeft
+
+rotateOutUpRight
+
+12. Specials
+
+hinge
+
+jackInTheBox
+
+rollIn
+
+rollOut
+
+13. Zooming entrances
+
+zoomIn
+
+zoomInDown
+
+zoomInLeft
+
+zoomInRight
+
+zoomInUp
+
+14. Zooming exits
+
+zoomOut
+
+zoomOutDown
+
+zoomOutLeft
+
+zoomOutRight
+
+zoomOutUp
+
+15. Sliding entrances
+
+slideInDown
+
+slideInLeft
+
+slideInRight
+
+slideInUp
+
+Sliding exits
+
+slideOutDown
+
+slideOutLeft
+
+slideOutRight
+
+slideOutUp
+
+</textarea>
+            </div>
+        </section>
+        <section id="Icons" class="border r4">
+            <h2 id="" class="bg-biru pd5 r8">Icons</h2>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Icons menggunakan Fontsawesome 5
+                </p>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                  >  Code
+                </p>
+                <textarea class="textarea lawrencium putih" wrap="off" >.fa, .fab, .fas, .far</textarea>
+                <br /> <br />
+                <p class="bg pd5 r8 hitam">
+                    Contoh
+                </p>
+                <p class="bg pd5">
+    <i class="fas fa-user u25px biru"></i>
+    <i class="far fa-user u35px hijau"></i>
+    <i class="fab fa-github-square u40px merah"></i>
+    <i class="fas fa-camera u60px biru"></i>
+    <i class="fas fa-folder u10px oren"></i>
+    <i class="fas fa-file magenta"></i>
+    <i class="fab fa-tiktok ungu"></i>
+    <i class="fab fa-whatsapp-square kuning"></i>
+    <i class="fas fa-bars hijau"></i>
+    <i class="fas fa-bars merah u60px"></i>
+    <a href="#ig"><i class="fab fa-instagram ungu"></i></a>
+    <a href="#wa"><i class="fab fa-whatsapp hijau"></i></a>
+    <a href="#vt"><i class="fab fa-tiktok hitam"></i></a>
+    <a href="#git"><i class="fab fa-github ungu"></i></a>
+    <a href="#tw"><i class="fab fa-twitter hijau"></i></a>
+    <a href="#hubungi"><i class="fab fa-facebook biru"></i></a>
+</p>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                  >  Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ><p>
+    <i class="fa fa-bars"></i>
+    <i class="fas fa-user u25px"></i>
+    <i class="far fa-user u35px"></i>
+    <i class="fab fa-github-square u40px merah"></i>
+    <i class="fas fa-camera u60px biru"></i>
+    <i class="fas fa-folder u10px oren"></i>
+    <i class="fas fa-file magenta"></i>
+    <i class="fab fa-tiktok ungu"></i>
+    <i class="fab fa-whatsapp-square"></i>
+    <i class="fas fa-bars hijau"></i>
+    <i class="fas fa-bars merah u60px"></i>
+    <a href="#ig"><i class="fab fa-instagram"></i></a>
+    <a href="#wa"><i class="fab fa-whatsapp"></i></a>
+    <a href="#vt"><i class="fab fa-tiktok"></i></a>
+    <a href="#git"><i class="fab fa-github"></i></a>
+    <a href="#tw"><i class="fab fa-twitter"></i></a>
+    <a href="#hubungi"><i class="fab fa-facebook"></i></a>
+</p></textarea>
+            </div>
+        </section>
+        <section id="btnTopclik" class="border r4">
+              <p id="" class="bg pd5 r8 hitam">
+                    button to top
+                </p>
+            <textarea class="textarea1 lawrencium putih" wrap="off" ><button onclick="btnTopFunction()" id="btnTop" title="Go to top">^</button>
+
+
+<!-- modifikasi-->
+<style type="text/css" media="all">
+
+    #btnTop {
+        background-color: var(--blue);
+    }
+    #btnTop:hover {
+        background-color: var(--green);
+    }
+</style></textarea>
+            </section>
+        
+        <section id="" class="border r4">
+            <h2 id="" class="bg-biru pd5 r8">Kunjungi Github Fcss <a href="https://github.com/nelsenpro/framecss" class="putih bg-hijau pd3 r8" target="_blank"><i class="fab fa-github putih u30"></i> Github >< </a>
+            </h2>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <section class="">
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Modal Header</h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Some text in the Modal Body
+                        </p>
+                        <p>
+                            Some other text...
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <h3>Modal Footer</h3>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div id="myModal-biru" class="modalbiru">
+                <div class="modalbiru-content-biru">
+                    <div class="modalbiru-header-biru">
+                        <span class="closebiru">&times;</span>
+                        <h2>Modal Header</h2>
+                    </div>
+                    <div class="modalbiru-body-biru">
+                        <p>
+                            Some text in the Modal Body
+                        </p>
+                        <p>
+                            Some other text...
+                        </p>
+                    </div>
+                    <div class="modalbiru-footer-biru">
+                        <h3>Modal Footer</h3>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- awal modal magenta -->
+            <div id="myModal-mag" class="modalmag">
+                <div class="modalmag-content-mag">
+                    <div class="modalmag-header-mag">
+                        <span class="closemag">&times;</span>
+                        <h2>Modal Header</h2>
+                    </div>
+                    <div class="modalmag-body-mag">
+                        <p>
+                            Some text in the Modal Body
+                        </p>
+                        <p>
+                            Some other text...
+                        </p>
+                    </div>
+                    <div class="modalmag-footer-mag">
+                        <h3>Modal Footer</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- akhir modal magenta -->
+            
+            <!-- awal modal oren -->
+            <div id="myModal-oren" class="modaloren">
+                <div class="modaloren-content-oren">
+                    <div class="modaloren-header-oren">
+                        <span class="closeoren">&times;</span>
+                        <h2>Modal Header</h2>
+                    </div>
+                    <div class="modaloren-body-oren">
+                        <p>
+                            Some text in the Modal Body
+                        </p>
+                        <p>
+                            Some other text...
+                        </p>
+                    </div>
+                    <div class="modaloren-footer-oren">
+                        <h3>Modal Footer</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- akhir modal oren -->
+            
+            <!-- awal modal merah -->
+            <div id="myModal-merah" class="modalmerah">
+                <div class="modalmerah-content-merah">
+                    <div class="modalmerah-header-merah">
+                        <span class="closemerah">&times;</span>
+                        <h2>Modal Header</h2>
+                    </div>
+                    <div class="modalmerah-body-merah">
+                        <p>
+                            Some text in the Modal Body
+                        </p>
+                        <p>
+                            Some other text...
+                        </p>
+                    </div>
+                    <div class="modalmerah-footer-merah">
+                        <h3>Modal Footer</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- akhir modal merah -->
+        </section>
+    </div>
+    <!-- 
+    <section id="" class="border r4">
+            <h2 id="" class="bg-biru pd5 r8">Icons</h2>
+            <div class="">
+                <p class="bg pd5 r8 hitam">
+                    Contoh
+                </p>
+                <br />
+                <p class="bg pd5 r8 hitam">
+                  >  Code
+                </p>
+                <textarea class="textarea1 lawrencium putih" wrap="off" ></textarea>
+            </div>
+        </section>
+    -->
+</div>
+<!-- awal footer -->
+<div class="footer bg-hijau rt-tengah">
+    <p class="footer-content i b">
+        © 2023 Bnelsofc * Fcss 3 DOC
+    </p>
+</div>
+<!-- akhir footer -->
+<style type="text/css" media="all">
+     textarea {
+          width: 100%;
+          height: 200px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 8px;
+            border: none;
+            padding: 2px;
+        }
+        @media screen and (max-width: 600px) {
+            textarea {
+                max-height: 150px;
+            }
+        }
+        
+</style>
+<link rel="stylesheet" href="resets.css" type="text/css" media="all" />
+</body>
+</html>
