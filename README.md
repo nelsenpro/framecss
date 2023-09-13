@@ -17,22 +17,22 @@
 ## Mulai 🤔
 ### CDN✅
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/frame.css">
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/frame.js" defer="true"></script>
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/slider.js" defer="true"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.css">
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.js" defer="true"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/slider.js" defer="true"></script>
 ```
 ### jQuery.js, D3.js, Chart.js, Typed.js😉
 ```html
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/jq.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/d3.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/chart.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/typed.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/plot.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/jq.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/d3.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/chart.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/typed.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/plot.js" type="text/javascript" charset="utf-8"></script>
 ```
 ### Another js🤗
 ```html
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/ftema.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/cp.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/ftema.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/cp.js" type="text/javascript" charset="utf-8"></script>
 ```
 ### NPM 😍
 ```txt
@@ -59,9 +59,9 @@ git clone https://github.com/nelsenpro/framecss.git
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/frame.css">
-    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/frame.js" defer="true"></script>
-    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/frame/data/slider.js" defer="true"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.js" defer="true"></script>
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/slider.js" defer="true"></script>
     <title>Document</title>
 </head>
 <body>
@@ -71,8 +71,8 @@ git clone https://github.com/nelsenpro/framecss.git
 ```
 ## Creator 🥰
 
-[Nelsen Niko](https://sites.google.com/view/nelsennikoo)
+[Nelsen Niko](https://wa.me/6285328736706)
 
-## Thanks 👍🙏🤝
+## Thanks for : 👍🙏🤝
 
 [Normalize.css] | [Animate.css] | [Fontsawesome] | [StaticSave] | [W3schools] | [Swiffy Slider] | [jQuery.js] | [D3.js] | [Chart.js] | [Plotly.js] |
