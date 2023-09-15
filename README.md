@@ -3,7 +3,7 @@
 
 ⭐ framecss css framework, let's go build your design with framecss3
 ## Framecss..?🤗 |
-[Dokumentasi](https://lzazyhmf1gqglz0hvjcgzq.on.drv.tw/docs.html) | Release 1.1.4
+[Dokumentasi](https://lzazyhmf1gqglz0hvjcgzq.on.drv.tw/docs.html) | [Lihat kode CSS](https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.css) | [Lihat Kode JS]() |
 
 <p align="">Framecss adalah CSS Framework yang Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web <i>Responsible</i>. CLASS bisa menggunakan bahasa Indonesia ataupun Inggris. misalnya : class="button" atau class="tombol" dan hasilnya sama. Singkatnya, Framecss mendukung class dua bahasa yaitu bahasa Indonesia dan bahasa Inggris</p>
 
