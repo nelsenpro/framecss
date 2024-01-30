@@ -1,5 +1,6 @@
 # Framecss adalah Framework CSS Indonesia 
 [![Socket Badge](https://socket.dev/api/badge/npm/package/getframecss)](https://socket.dev/npm/package/getframecss)
+#### Framecss Sebuah Proyek Kerjasama 
 Framecss adalah sebuah proyek open source yang menyediakan berbagai macam library CSS untuk keperluan desain aplikasi web dan website. Framecss awalnya diciptakan oleh Nelsen Niko yang kemudian dikembangkan oleh banyak kontributor lainnya. Kode sekarang  merupakan hasil kolaborasi dari banyak kontributor yang berpartisipasi dalam pengembangan dan perbaikan kode sumbernya. Framecss juga terinspirasi oleh beberapa CSS framework lain, seperti Bootstrap, Foundation, dan Bulma. Framecss menawarkan fitur-fitur unggulan seperti responsive design, grid system, custom components, dan theme customization. Framecss cocok digunakan untuk membuat web yang modern, elegan, dan mudah digunakan. 
 ⭐ framecss css framework, let's go build your design with framecss3
 ## Framecss..?🤗 |
