@@ -70,6 +70,98 @@ git clone https://github.com/nelsenpro/framecss.git
 </body>
 </html>
 ```
+## Breakpoints :: Media Queries
+
+### Mobile Phone: class="col"
+```css
+[class*="col-"] {
+    width: 100%;
+}
+```
+### Tablet : class="col-s-1"
+```css
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {
+        width: var(--col1);
+    }
+    .col-s-2 {
+        width: var(--col2);
+    }
+    .col-s-3 {
+        width: var(--col3);
+    }
+    .col-s-4 {
+        width: var(--col4);
+    }
+    .col-s-5 {
+        width: var(--col5);
+    }
+    .col-s-6 {
+        width: var(--col6);
+    }
+    .col-s-7 {
+        width: var(--col7);
+    }
+    .col-s-8 {
+        width: var(--col8);
+    }
+    .col-s-9 {
+        width: var(--col9);
+    }
+    .col-s-10 {
+        width: var(--col10);
+    }
+    .col-s-11 {
+        width: var(--col11);
+    }
+    .col-s-12 {
+        width: var(--full);
+    }
+}
+```
+### PC : class="col-1"
+```css
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: var(--col1);
+    }
+    .col-2 {
+        width: var(--col2);
+    }
+    .col-3 {
+        width: var(--col3);
+    }
+    .col-4 {
+        width: var(--col4);
+    }
+    .col-5 {
+        width: var(--col5);
+    }
+    .col-6 {
+        width: var(--col6);
+    }
+    .col-7 {
+        width: var(--col7);
+    }
+    .col-8 {
+        width: var(--col8);
+    }
+    .col-9 {
+        width: var(--col9);
+    }
+    .col-10 {
+        width: var(--col10);
+    }
+    .col-11 {
+        width: var(--col11);
+    }
+    .col-12 {
+        width: var(--full);
+    }
+}
+```
 ## Creator 🥰
 
 [Nelsen Niko](https://wa.me/6285328736706)
