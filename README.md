@@ -1,30 +1,41 @@
 # Framecss adalah Framework CSS Indonesia 
 [![Socket Badge](https://socket.dev/api/badge/npm/package/getframecss)](https://socket.dev/npm/package/getframecss)
-#### Framecss Sebuah Proyek Kerjasama 
-Framecss adalah sebuah proyek open source yang menyediakan berbagai macam library CSS untuk keperluan desain aplikasi web dan website. Framecss awalnya diciptakan oleh Nelsen Niko yang kemudian dikembangkan oleh banyak kontributor lainnya. Kode sekarang  merupakan hasil kolaborasi dari banyak kontributor yang berpartisipasi dalam pengembangan dan perbaikan kode sumbernya. Framecss juga terinspirasi oleh beberapa CSS framework lain, seperti Bootstrap, Foundation, dan Bulma. Framecss menawarkan fitur-fitur unggulan seperti responsive design, grid system, custom components, dan theme customization. Framecss cocok digunakan untuk membuat web yang modern, elegan, dan mudah digunakan. 
-⭐ framecss css framework, let's go build your design with framecss3
+#### Framecss Framework Open Source 
+<p align="">Framecss adalah Framework CSS open source yang Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web <i>Responsible</i> dan aplikasi web. CLASS bisa menggunakan bahasa Indonesia ataupun Inggris. misalnya : class="button" atau class="tombol" dan hasilnya sama. Singkatnya, Framecss mendukung class dua bahasa yaitu bahasa Indonesia dan bahasa Inggris</p> Framecss diciptakan dan di kembangkan oleh Nelsen Niko yang terinspirasi oleh beberapa CSS framework lain, seperti Bootstrap, Foundation, dan Bulma. Framecss menawarkan fitur-fitur unggulan seperti responsive design, grid system, custom components, dan theme customization. Framecss cocok digunakan untuk web desainer pemula dalam membuat web yang modern, elegan, dan mudah digunakan. 
+⭐ framecss css framework, let's go build your design with framecss Framework
 ## Versi :
 [frame.1.1.5.css](https://framecssframeworknelsen.on.drv.tw/V1.1.5.html) [Demo Template](https://framecssframeworknelsen.on.drv.tw/template.1.1.5.html)
-## Framecss..?🤗 |
+## Framecss..?
 [Dokumentasi](https://lzazyhmf1gqglz0hvjcgzq.on.drv.tw/docs.html) | [Lihat kode CSS](https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.css) | [Lihat Kode JS](https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.js) |
-
-<p align="">Framecss adalah CSS Framework yang Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web <i>Responsible</i>. CLASS bisa menggunakan bahasa Indonesia ataupun Inggris. misalnya : class="button" atau class="tombol" dan hasilnya sama. Singkatnya, Framecss mendukung class dua bahasa yaitu bahasa Indonesia dan bahasa Inggris</p>
-
-## Status 🤗
+## Status
+###### Framecss 1.1.4
 | Nama | Deskripsi |
 | --- | --- |
 | Update | 15-03-2023 |
 | Versi | 1.1.4 |
 | Lisensi | MIT |
+###### Framecss 1.1.5
+| Nama | Deskripsi |
+| --- | --- |
+| Update | 5-02-2024 |
+| Versi | 1.1.5 |
+| Lisensi | MIT |
 
-## Mulai 🤔
-### CDN✅
+## Mulai
+### CDN
+Framecss.CSS
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.1.1.5.css">
+```
+Framecss.JS
+```html
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.js" defer="true"></script>
+```
+Slider.JS
+``` html
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/slider.js" defer="true"></script>
 ```
-### jQuery.js, D3.js, Chart.js, Typed.js😉
+### jQuery.js, D3.js, Chart.js, Typed.js
 ```html
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/jq.js" type="text/javascript" charset="utf-8"></script>
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/d3.js" type="text/javascript" charset="utf-8"></script>
@@ -32,29 +43,30 @@ Framecss adalah sebuah proyek open source yang menyediakan berbagai macam librar
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/typed.js" type="text/javascript" charset="utf-8"></script>
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/plot.js" type="text/javascript" charset="utf-8"></script>
 ```
-### Another js🤗
+### Another js
 ```html
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/ftema.js" type="text/javascript" charset="utf-8"></script>
 <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/cp.js" type="text/javascript" charset="utf-8"></script>
 ```
-### NPM 😍
+### NPM
+framecss.1.1.4
 ```txt
 npm i getframecss
 ```
-### Github 👇
+### Github
 ```txt
 git clone https://github.com/nelsenpro/framecss.git
 ```
-### Zip File 👇
+### Zip File
 [Download Zip](https://github.com/nelsenpro/framecss/archive/refs/heads/main.zip)
 
 
-### see other source on : 👇
+### see other source on :
 [Gitlab](https://gitlab.com/nelsenpro/frame) | | [NPM](https://www.npmjs.com/package/getframecss) | | 
 [Sourceforge](https://sourceforge.net/u/bnelsofc/framecss) | |
 [Launchpad](https://code.launchpad.net/~nelsenpro/framecss/+git/frame)
 
-## Starter Template 😉
+## Starter Template
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -62,10 +74,10 @@ git clone https://github.com/nelsenpro/framecss.git
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.1.1.5.css">
     <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.js" defer="true"></script>
     <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/slider.js" defer="true"></script>
-    <title>Document</title>
+    <title>Mulai Framecss</title>
 </head>
 <body>
     <h1 class="red">Welcome</h1>
@@ -73,14 +85,15 @@ git clone https://github.com/nelsenpro/framecss.git
 </html>
 ```
 ## Breakpoints :: Media Queries
-
-### Mobile Phone: class="col"
+### Mobile Phones : class="col"
+Dibawah 599px = class="col-"
 ```css
 [class*="col-"] {
     width: 100%;
 }
 ```
-### Tablet : class="col-s-1"
+### Tablets : class="col-s-1"
+dari 600-767px = class="col-s-1"
 ```css
 @media only screen and (min-width: 600px) {
     /* For tablets: */
@@ -122,7 +135,8 @@ git clone https://github.com/nelsenpro/framecss.git
     }
 }
 ```
-### PC : class="col-1"
+### Desktop : class="col-1"
+diatas 767px : class="col-1"
 ```css
 @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -164,10 +178,7 @@ git clone https://github.com/nelsenpro/framecss.git
     }
 }
 ```
-## Creator 🥰
-
+## Creator 
 [Nelsen Niko](https://wa.me/6285328736706)
-
-## Thanks for : 👍🙏🤝
-
+## Thanks for :
 [Normalize.css] | [Animate.css] | [Fontsawesome] | [StaticSave] | [W3schools] | [Swiffy Slider] | [jQuery.js] | [D3.js] | [Chart.js] | [Plotly.js] |
