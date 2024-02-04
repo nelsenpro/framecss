@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* import Framecss Framework */
+@import url("https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.1.1.5.css");
+
+        /* css kamu */
+:root {
+            --white: white;
+            --blue: blue;
+        }
+        .mymenu li {
+            padding: 8px;
+            margin-bottom: 7px;
+        }
+        .mymenu li:hover {
+            background-color: var(--blue)!important;
+        }
+        body {
+            font-family: "Lucida Sans", sans-serif;
+        }
+    </style>
+</head>
+<body class="dusty-grass">
+
+    <div class="header bg-primary text-center padding-15">
+        <h1 class="font-bold">Framecss Framework CSS Indonesia</h1>
+        <p class="font-italic capitalize">
+            versi 1.1.5
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 mymenu white">
+            <ul class="margin-0 padding-0 list-style-none">
+                <li onclick="func1()" class="bg-danger border-radius-8">CSS Grid System</li>
+                <li onclick="func2()" class="bg-danger border-radius-8">Komponen UI</li>
+                <li onclick="func3()" class="bg-danger border-radius-8">Variabel CSS</li>
+                <li onclick="func4()" class="bg-danger border-radius-8">Utilities</li>
+                <li onclick="func5()" class="bg-danger border-radius-8">Dokumentasi</li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <div class="bg-warning padding-15 border-radius-12 text-white">
+                <h1>Framecss Framework</h1>
+                <p>
+                    Framecss adalah sebuah framework front-end yang diciptakan untuk memudahkan pengembangan tampilan web dengan menggunakan CSS. Dengan menggunakan Framecss, pengembang web dapat mempercepat proses pengembangan tampilan web dengan memanfaatkan komponen siap pakai dan kustomisasi yang mudah.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="bg-success padding-15 font-size-14 text-center white border-radius-12">
+                <h2>Struktur yang responsif</h2>
+                <p>
+                    Framework ini dirancang untuk membuat tata letak yang responsif, sehingga halaman web bisa terlihat baik di berbagai perangkat, mulai dari desktop hingga perangkat mobile.
+                </p>
+                <h2>Kumpulan komponen</h2>
+                <p>
+                    Framecss menyediakan kumpulan komponen siap pakai seperti tombol, formulir, kartu, dan lainnya, yang dapat mempercepat proses pengembangan.
+                </p>
+                <h2>Kustomisasi</h2>
+                <p>
+                    Pengguna dapat dengan mudah menyesuaikan tampilan menggunakan variabel CSS yang disediakan oleh framework ini.
+                </p>
+                <h2>Ringan dan cepat</h2>
+                <p>
+                    Framecss berfokus pada kinerja yang cepat dan memiliki ukuran yang ringan, sehingga memungkinkan halaman web untuk memuat dengan cepat.
+                </p>
+                <h2>Dukungan lintas browser</h2>
+                <p>
+                    Framework ini telah diuji secara menyeluruh untuk memastikan kompatibilitasnya dengan berbagai browser populer.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-info text-center font-size-14">
+        <p>
+            | <a href="#">GitHub</a> |
+            <a href="#">NPM</a> |
+            <a href="#">GitLab</a> |
+        </p>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+        function func1() {
+            alert("Framecss menyediakan grid system yang memungkinkan pengembang untuk membuat tata letak halaman web secara responsif. Dengan menggunakan grid system ini, pengembang dapat dengan mudah menentukan tata letak kolom dan baris untuk menempatkan konten secara fleksibel.");
+        }
+        function func2() {
+            alert("Framework ini menyediakan beragam komponen UI siap pakai seperti tombol, formulir, kartu, navigasi, dan masih banyak lagi. Komponen-komponen ini dirancang untuk memudahkan pengembangan tampilan web dengan memanfaatkan elemen-elemen yang umum digunakan dalam desain web modern.");
+        }
+        function func3() {
+            alert("Framecss memanfaatkan variabel CSS untuk memudahkan kustomisasi tampilan. Dengan menggunakan variabel CSS, pengembang dapat dengan mudah mengubah warna, ukuran, jarak, dan berbagai properti lainnya secara konsisten di seluruh tampilan web.");
+        }
+        function func4() {
+            alert("Framework ini juga menyediakan beragam utilitas CSS yang dapat digunakan untuk menangani berbagai tugas umum, seperti penataan teks, penanganan warna, dan lain sebagainya. Utilitas ini memudahkan pengembang dalam menulis kode CSS yang efisien.");
+        }
+        function func5() {
+            alert("Framecss dilengkapi dengan dokumentasi yang lengkap dan jelas, yang menjelaskan penggunaan, kustomisasi, dan berbagai fitur lainnya dari framework ini.");
+        }
+    </script>
+    <button onclick="btnTopFunction()" id="btnTop" title="Go to top" class="f-up">^</button>
+
+
+<!-- modifikasi-->
+<style type="text/css" media="all">
+/*
+    #btnTop {
+        background-color: var(--fred);
+    }
+    #btnTop:hover {
+        background-color: var(--fbiruu);
+    }*/
+</style>
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/dist/frame.js" defer="true"></script>
+</body>
+</html>
