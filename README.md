@@ -4,7 +4,7 @@
 Framecss adalah sebuah proyek open source yang menyediakan berbagai macam library CSS untuk keperluan desain aplikasi web dan website. Framecss awalnya diciptakan oleh Nelsen Niko yang kemudian dikembangkan oleh banyak kontributor lainnya. Kode sekarang  merupakan hasil kolaborasi dari banyak kontributor yang berpartisipasi dalam pengembangan dan perbaikan kode sumbernya. Framecss juga terinspirasi oleh beberapa CSS framework lain, seperti Bootstrap, Foundation, dan Bulma. Framecss menawarkan fitur-fitur unggulan seperti responsive design, grid system, custom components, dan theme customization. Framecss cocok digunakan untuk membuat web yang modern, elegan, dan mudah digunakan. 
 ⭐ framecss css framework, let's go build your design with framecss3
 ## Versi :
-[frame.1.1.5.css](https://framecssframeworknelsen.on.drv.tw/versi1.1.5.html) [Demo Template](https://framecssframeworknelsen.on.drv.tw/V1.1.5.html)
+[frame.1.1.5.css](https://framecssframeworknelsen.on.drv.tw/V1.1.5.html) [Demo Template](https://framecssframeworknelsen.on.drv.tw/template.1.1.5.html)
 ## Framecss..?🤗 |
 [Dokumentasi](https://lzazyhmf1gqglz0hvjcgzq.on.drv.tw/docs.html) | [Lihat kode CSS](https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.css) | [Lihat Kode JS](https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.js) |
 
