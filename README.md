@@ -5,7 +5,7 @@
 ⭐ framecss css framework, let's go build your design with framecss Framework
 
 ## Versi :
-[frame.1.1.5.css](https://framecssframeworknelsen.on.drv.tw/V1.1.5.html) [Demo Template](https://framecssframeworknelsen.on.drv.tw/template.1.1.5.html)
+[frame.1.1.5.css](https://framecss-framework-nelsen.on.drv.tw/V1.1.5.html) [Demo Template](https://framecss-framework-nelsen.on.drv.tw/template.1.1.5.html)
 ## Framecss..?
 [Dokumentasi](https://lzazyhmf1gqglz0hvjcgzq.on.drv.tw/docs.html) | [Lihat kode CSS](https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.css) | [Lihat Kode JS](https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.min.js) |
 ## Status
