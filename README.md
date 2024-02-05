@@ -3,6 +3,7 @@
 #### Framecss Framework Open Source 
 <p align="">Framecss adalah Framework CSS open source yang Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web <i>Responsible</i> dan aplikasi web. CLASS bisa menggunakan bahasa Indonesia ataupun Inggris. misalnya : class="button" atau class="tombol" dan hasilnya sama. Singkatnya, Framecss mendukung class dua bahasa yaitu bahasa Indonesia dan bahasa Inggris</p> Framecss diciptakan dan di kembangkan oleh Nelsen Niko yang terinspirasi oleh beberapa CSS framework lain, seperti Bootstrap, Foundation, dan Bulma. Framecss menawarkan fitur-fitur unggulan seperti responsive design, grid system, custom components, dan theme customization. Framecss cocok digunakan untuk web desainer pemula dalam membuat web yang modern, elegan, dan mudah digunakan. 
 ⭐ framecss css framework, let's go build your design with framecss Framework
+
 ## Versi :
 [frame.1.1.5.css](https://framecssframeworknelsen.on.drv.tw/V1.1.5.html) [Demo Template](https://framecssframeworknelsen.on.drv.tw/template.1.1.5.html)
 ## Framecss..?
@@ -178,7 +179,54 @@ diatas 767px : class="col-1"
     }
 }
 ```
+## Kamu dapat Mengubah kode 
+###### Kode 
+```css
+:root {}
+```
+#### Contoh Mengubah Warna:
+###### Warna bawaan Framecss 
+```css
+--red: #e51400;
+--green: #60a917;
+--blue: #3e65ff;
+```
+###### Warna sesuai keinginan
+```css
+--red: #FF0000;
+--green: #008000;
+--blue: #0000FF;
+```
+###### Begini caranya
+```css
+    /* mengubah variabel warna sesuai keinginan */
+:root {
+        --red: #FF0000;
+        --green: #008000;
+        --blue: #0000FF;
+    }
+    /* nama class untuk warna font/teks */
+    .red,
+    .merah {
+        color: var(--red);
+    }
+    .green,
+    .hijau {
+        color: var(--green);
+    }
+    .blue,
+    .biru {
+        color: var(--blue);
+    }
+```
+###### HTML nya
+```html
+<h3 class="merah">teks ini merah</h3>
+<p class="green">teks ini hijau</p>
+<h5 class="biru">teks ini biru</h5>
+```
+
 ## Creator 
-[Nelsen Niko](https://wa.me/6285328736706)
+[Blog](https://goframe-css.blogspot.com/) | [Tiktok](https://www.tiktok.com/@framecss_framework_css) | [Youtube](https://youtube.com/@bnelsofficial4505?si=Wjr0I8h-N2j1wjIM) | [Nelsen Niko](https://wa.me/6285328736706)
 ## Thanks for :
-[Normalize.css] | [Animate.css] | [Fontsawesome] | [StaticSave] | [W3schools] | [Swiffy Slider] | [jQuery.js] | [D3.js] | [Chart.js] | [Plotly.js] |
+[Normalize.css]() | [Animate.css]() | [Fontsawesome]() | [StaticSave]() | [W3schools]() | [Swiffy Slider]() | [jQuery.js]() | [D3.js]() | [Chart.js]() | [Plotly.js]() | [Google]()
