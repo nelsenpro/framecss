@@ -9,6 +9,9 @@ ________________________________________*/
 @import url(slider.css);
 @import url(fmoji.css);
 
+@import url(fa4/css/font-awesome.min.css);
+
+
 /*
 @import url("https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/animate.css");
 @import url("https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/fonts/fa.css");
@@ -31,6 +34,12 @@ jika layar dibawah 768px maka scroll smooth
 */
 @media screen and (max-width: 768px) {
     html {
+        scroll-behavior: smooth;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+:root {
         scroll-behavior: smooth;
     }
 }
@@ -239,12 +248,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     line-height: 1.3;
     margin-top: 0;
     margin-bottom: 0.5rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*color: #333;Your preferred color code */
+    letter-spacing: 0.1em; /* Adjust the letter spacing */
 }
 
-p {
+h1, h2, h3, h4, h5, h6, p {
     font-size: auto;
-    /*letter-spacing: auto;
-    line-height: auto;*/
+}
+p {
+    letter-spacing: 0.05em; /* Adjust as needed */
 }
 iframe {
     border: 0;
@@ -290,21 +303,27 @@ video {
     --magenta: #d80073;
 
     /* Bootstrap Colors */
-    --bs-biru: #0d6efd; /* primary */
+    --bs-biru: #0d6efd;
+    /* primary */
     --bs-indigo: #6610f2;
     --bs-ungu: #6f42c1;
     --bs-ping: #d63384;
-    --bs-merah: #dc3545; /* danger */
+    --bs-merah: #dc3545;
+    /* danger */
     --bs-oren: #fd7e14;
-    --bs-kuning: #ffc107; /* warning */
-    --bs-hijau: #198754; /* success */
+    --bs-kuning: #ffc107;
+    /* warning */
+    --bs-hijau: #198754;
+    /* success */
     --bs-teal: #20c997;
-    --bs-abu: #6c757d; /* secondary */
-    --bs-cyan: #0dcaf0; /* info */
-    --bs-light: #f8f9fa; 
+    --bs-abu: #6c757d;
+    /* secondary */
+    --bs-cyan: #0dcaf0;
+    /* info */
+    --bs-light: #f8f9fa;
     --bs-dark: #212529;
 
-/* Star Bootstrap Colors */
+    /* Star Bootstrap Colors */
     --sb-primary: #4e73df;
     --sb-success: #1cc88a;
     --sb-info: #36b9cc;
@@ -410,16 +429,19 @@ video {
     --canva-dark-2: #2E2E2E;
 
 }
-
-.row::after {
+.row::after,
+.baris::after,
+.grid::after {
     content: "";
     clear: both;
     display: table;
 }
 
+
 [class*="col-"] {
     float: left;
     padding: 10px;
+
 }
 
 /* For mobile phones: */
@@ -525,11 +547,21 @@ video {
 
 /* float layout*/
 .header {
-    grid-area: header;
     background-color: var(--micro-blue);
     color: var(--white);
-    /*padding: 15px;*/
+    grid-area: header;
+    padding: 20px;
+    width: 100%;
 }
+
+.headers {
+    background-color: #38a3a5;
+    color: var(--white);
+    grid-area: header;
+    padding: 20px; /* Adjust if needed */
+    width: 100%;
+}
+
 .header-content {
     /*text-align: center;*/
     margin: 0;
@@ -537,6 +569,13 @@ video {
     /*box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.25);*/
     /*opacity: .95;*/
 }
+.header, .headers {
+    grid-area: header;
+    padding: 20px; /* Consistent padding */
+    width: 100%;
+}
+
+
 .utama {
     float: left;
     padding: 10px;
@@ -555,11 +594,19 @@ video {
 
 /* modifikasi footer */
 .footer {
-    grid-area: footer;
     background-color: var(--google-blue);
     color: var(--white);
-    font-size: 12px;
-    padding: 15px;
+
+}
+.footers {
+    background-color: #22577a;
+    color: var(--white);
+}
+.footer, .footers {
+    grid-area: footer;
+    /*font-size: 12px;*/
+    padding: 10px;
+    width: 100%;
 }
 .footer-content {
     margin: 0;
@@ -781,11 +828,77 @@ video {
 /*
 container
 */
-.container {
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
     width: 100%;
-    padding-left: 14.5px;
-    padding-right: 14.5px;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1320px;
+    }
+}
+
+/*
+
+.container {
+   max-width: 100%;
+  /*margin: 0 auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  /*text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  /*border-radius: 8px;
+  box-sizing: border-box;
+} */
+/*
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    body {
+        background-color:;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    body {
+        background-color:;
+    }
+}
+*/
 /*
 @media (max-width: 288px) {
     .container {
@@ -803,6 +916,19 @@ container
 */
 /* end row ; collom */
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    /*font-size: 30px;
+  text-align: center;*/
+}
 /* Akordion */
 .accordion {
     /*background-color: var(--darkblue);
@@ -815,6 +941,7 @@ container
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+    border-radius: 4px;
 }
 
 .accordion_active,
@@ -843,11 +970,106 @@ container
     color: var(--black) !important;*/
     max-height: 0;
     overflow: hidden;
+    -webkit-transition: max-height 0.2s ease-out; /* Safari and Chrome */
     transition: max-height 0.2s ease-out;
 }
 .accordionpanel p {
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
 }
+
+/* breadcrumb */
+    /* Gaya daftar */
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  .entity:before {
+      content:'\203A';
+  }
+
+  /* Tampilkan item daftar berdampingan */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+
+  /* Tambahkan simbol garis miring (/) sebelum/setelah setiap item daftar */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+
+  /* Tambahkan warna ke semua tautan di dalam daftar */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+
+  /* Tambahkan warna saat mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+    .custom-breadcrumb {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .custom-breadcrumb a {
+        text-decoration: none;
+        color: #4CAF50;
+        margin-right: 8px;
+    }
+
+    .custom-breadcrumb span {
+        margin-right: 8px;
+        color: #777;
+    }
+
+    .custom-breadcrumb span:last-child {
+        margin-right: 0;
+        color: #333;
+        font-weight: bold;
+    }
+
+
+
+    .breadcrumb-responsible {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        flex-wrap: wrap;
+    }
+
+    .breadcrumb-responsible a {
+        text-decoration: none;
+        color: #007bff;
+        margin-right: 5px;
+    }
+
+    .breadcrumb-responsible span {
+        margin-right: 5px;
+        color: #555;
+    }
+
+    .breadcrumb-responsible .separator {
+        display: none;
+    }
+
+@media (max-width: 600px) {
+        .breadcrumb-responsible a, .breadcrumb-responsible span {
+            margin-right: 2px;
+        }
+
+        .breadcrumb-responsible .separator {
+            display: inline;
+        }
+    }
 
 /* starting animasi*/
 
@@ -1095,6 +1317,7 @@ container
     padding-top: 32px;
     text-align: center;
     margin: 0;
+    color: var(--fdark);
 }
 .blok-footer,
 .block-footer {
@@ -1105,6 +1328,7 @@ container
     padding-top: 16px;
     text-align: center;
     margin: 0;
+    color: var(--fdark);
 }
 .blok-ping,
 .block-pink {
@@ -1222,6 +1446,70 @@ container
     text-align: center;
     margin: 0;
 }
+
+.panel {
+    background-color: var(--fabu);
+    color: var(--black);
+}
+.panel-light,
+.panel-secondary,
+.panel-terang {
+    background-color: var(--bs-light);
+    color: var(--black);
+}
+.panel-dark,
+.panel-gelap {
+    background-color: var(--fdark);
+    color: var(--white);
+}
+.panel-red,
+.panel-merah,
+.panel-danger {
+    background-color: var(--fred);
+    color: var(--white);
+}
+.panel-hijau,
+.panel-green,
+.panel-success {
+    background-color: var(--fhijau);
+    color: var(--white);
+}
+.panel-biru,
+.panel-blue,
+.panel-primary {
+    background-color: var(--fbiru);
+    color: var(--white);
+}
+.panel-cyan,
+.panel-info {
+    background-color: var(--fcyan);
+    color: var(--white);
+}
+.panel-kuning,
+.panel-yellow,
+.panel-warning {
+    background-color: var(--fyellow);
+    color: var(--white);
+}
+.panel-ungu,
+.panel-purpe {
+    background-color: var(--fungu);
+    color: var(--white);
+}
+.panel-oren,
+.panel-orange {
+    background-color: var(--foren);
+    color: var(--white);
+}
+
+.panel,
+[class*="panel-"] {
+    margin: 0 auto;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+
 /* end */
 
 /* efek gambar; filter image*/
@@ -1595,10 +1883,33 @@ container
 
 /* end font-family */
 
-/* login page*/
-.login-container {
-    padding: 8px;
+
+/* form search */
+.searchbox {
+    padding: 2px;
 }
+.searchbar {
+    border: 1px solid var(--red);
+    border-radius: 8px;
+    max-width: 90%;
+
+}
+/* form cari*/
+
+/* form cari tabel */
+#ketikkan {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid var(--gray);
+    margin-bottom: 12px;
+}
+
+/* form cari tabel*/
+
+/* login page */
 .login-content {
     border-radius: 12px;
     overflow: hidden;
@@ -1609,11 +1920,13 @@ container
 .login-content h2 {
     color: var(--fyellow);
 }
-.login-content label, input {
+
+.login-content label, .login-content input {
     margin: 10px;
     padding: 8px 16px;
     border-radius: 8px;
 }
+
 .login-content label {
     color: var(--fhijau);
 }
@@ -1641,6 +1954,49 @@ container
     padding: 8px 16px;
     border-right: 4px solid var(--fping);
 }
+
+.form-login {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    padding-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-button {
+    display: block;
+    /* width: 100%;*/
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    opacity: 0.9;
+}
+
+/*
 @media screen and (max-width: 320px) {
     .login-container {
         padding: 4px;
@@ -1677,33 +2033,9 @@ container
         margin-left: 20px;
     }
 }
-
+*/
 /* end*/
 
-/* form search */
-.searchbox {
-    padding: 2px;
-}
-.searchbar {
-    border: 1px solid var(--red);
-    border-radius: 8px;
-    max-width: 90%;
-
-}
-/* form cari*/
-
-/* form cari tabel */
-#ketikkan {
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
-    width: 100%;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid var(--gray);
-    margin-bottom: 12px;
-}
-
-/* form cari tabel*/
 
 /*
 button to top, tombol klik ke atas
@@ -1715,7 +2047,7 @@ button to top, tombol klik ke atas
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     outline: none;
     background-color: var(--fred);
@@ -1723,8 +2055,8 @@ button to top, tombol klik ke atas
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    content: "^";
+    /*font-family: Arial, Helvetica, sans-serif;
+    content: "^"; */
 }
 
 #btnTop:hover {
@@ -2032,6 +2364,29 @@ button to top, tombol klik ke atas
 
 
 /* card; kartu anggota*/
+  .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .card-header {
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-bottom: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .card-body {
+            padding: 10px;
+        }
+
+        .card-text {
+            color: #333;
+        }
+
 .kartu-grid3-kolom {
     float: left;
     width: 33.3%;
@@ -3971,6 +4326,9 @@ table th {
 .garis-bw {
     text-decoration-line: underline;
 }
+.text-nowrap {
+    white-space: nowrap;
+}
 
 /* garis luar */
 .dotted,
@@ -4050,7 +4408,7 @@ table th {
 }
 .fs18,
 .u18px, .u18,
-.font-size-18{
+.font-size-18 {
     font-size: 18px;
 }
 .u20px,
@@ -4065,7 +4423,7 @@ table th {
 }
 .u25px,
 .fs25, .u25,
-.font-size-25{
+.font-size-25 {
     font-size: 25px;
 }
 .u30px,
@@ -4075,7 +4433,7 @@ table th {
 }
 .u35px,
 .fs35, .u35,
-.font-size-35{
+.font-size-35 {
     font-size: 35px;
 }
 .u40px,
@@ -4088,7 +4446,7 @@ table th {
 }
 .u50px,
 .fs50, .u50,
-.font-size-50{
+.font-size-50 {
     font-size: 50px;
 }
 .u55px,
@@ -4190,7 +4548,7 @@ table th {
 }
 .w50,
 .l50,
-.width-50{
+.width-50 {
     width: 50%;
 }
 .l45,
@@ -4235,7 +4593,7 @@ table th {
 .ta,
 .h,
 .ha,
-.height-auto{
+.height-auto {
     height: auto;
 }
 .h5,
@@ -4260,7 +4618,7 @@ table th {
 }
 .t30,
 .h30,
-.height-30{
+.height-30 {
     height: 30%;
 }
 .t35,
@@ -4311,7 +4669,7 @@ table th {
 }
 .h90,
 .t90,
-.height-90{
+.height-90 {
     height: 90%;
 }
 .t95,
@@ -4328,19 +4686,19 @@ table th {
     border-radius: 2px;
 }
 .r4,
-.border-radius-4{
+.border-radius-4 {
     border-radius: 4px;
 }
 .r8,
-.border-radius-8{
+.border-radius-8 {
     border-radius: 8px;
 }
 .r10,
-.border-radius-10{
+.border-radius-10 {
     border-radius: 10px;
 }
 .r12,
-.border-radius-12{
+.border-radius-12 {
     border-radius: 12px;
 }
 .r30 {
@@ -4366,31 +4724,31 @@ table th {
 
 /* padding */
 .pd15,
-.padding-15{
+.padding-15 {
     padding: 15px;
 }
 .pd20,
-.padding-20{
+.padding-20 {
     padding: 20px;
 }
 .pd25,
-.padding-25{
+.padding-25 {
     padding: 25px;
 }
 .pd30,
-.padding-30{
+.padding-30 {
     padding: 30px;
 }
 .pd35,
-.padding-35{
+.padding-35 {
     padding: 35px;
 }
 .pd40,
-.padding-40{
+.padding-40 {
     padding: 40px;
 }
 .pd,
-.padding-0{
+.padding-0 {
     padding: 0;
 }
 .pd1 {
@@ -4409,74 +4767,82 @@ table th {
     padding: 5px;
 }
 .pd8,
-.padding-8{
+.padding-8 {
     padding: 8px;
 }
 .pd10,
-.padding-10{
+.padding-10 {
     padding: 10px;
 }
 /* padding-left */
 .pd-l-2,
-.padding-left-2{
+.padding-left-2 {
     padding-left: 2px;
 }
 .pd-l-4,
-.padding-left-4{
+.padding-left-4 {
     padding-left: 4px;
 }
 .pd-l-6,
-.padding-left-6{
+.padding-left-6 {
     padding-left: 6px;
 }
-.pd-l-8 {
+.pd-l-8,
+.padding-left-8 {
     padding-left: 8px;
 }
-.pd-l-10 {
+.pd-l-10,
+.padding-left-10 {
     padding-left: 10px;
 }
-.pd-l-12 {
+.pd-l-12,
+.padding-left-12 {
     padding-left: 12px;
 }
-.pd-l-14 {
+.pd-l-14,
+.padding-left-14 {
     padding-left: 14px;
 }
-.pd-l-15 {
+.pd-l-15,
+.padding-left-15{
     padding-left: 15px;
 }
-.pd-l-16 {
+.pd-l-16,
+.padding-left-16{
     padding-left: 16px;
 }
-.pd-l-18 {
+.pd-l-18,
+.padding-left-18 {
     padding-left: 18px;
 }
-.pd-l-20 {
+.pd-l-20,
+.padding-left-20{
     padding-left: 20px;
 }
 
 
 /* padding-right */
 .pd-r-2,
-.padding-right-2{
+.padding-right-2 {
     padding-right: 2px;
 }
 .pd-r-4,
- .padding-right-4{
+.padding-right-4 {
     padding-right: 4px;
 }
 .pd-r-6 {
     padding-right: 6px;
 }
 .pd-r-8,
-.padding-right-8{
+.padding-right-8 {
     padding-right: 8px;
 }
 .pd-r-10,
-.padding-right-10{
+.padding-right-10 {
     padding-right: 10px;
 }
 .pd-r-12,
-.padding-right-12{
+.padding-right-12 {
     padding-right: 12px;
 }
 .pd-r-14 {
@@ -4503,19 +4869,19 @@ table th {
     margin: 0;
 }
 .mg,
-.margin-0{
+.margin-0 {
     margin: 1px;
 }
 .mg2,
-.margin-2{
+.margin-2 {
     margin: 2px;
 }
 .mg3,
-.margin-3{
+.margin-3 {
     margin: 3px;
 }
 .mg5,
-.margin-4{
+.margin-4 {
     margin: 5px;
 }
 .m8,
@@ -4570,7 +4936,8 @@ table th {
     background-color: var(--fnote10);
     color: var(--white);
 }
-.btn-success {
+.btn-success,
+.btn-green {
     border: 1px solid var(--fhijau);
     background-color: var(--white);
     color: var(--green);
@@ -4584,7 +4951,8 @@ table th {
     border-radius: 8px;
     border: none;
 }
-.btn-primary {
+.btn-primary,
+.btn-blue {
     border: 1px solid var(--fbiru);
     background-color: var(--white);
     color: var(--blue);
@@ -4598,7 +4966,8 @@ table th {
     border-radius: 8px;
     border: none;
 }
-.btn-danger {
+.btn-danger,
+.btn-red {
     border: 1px solid var(--fred);
     background-color: var(--white);
     color: var(--red);
@@ -4612,7 +4981,8 @@ table th {
     border-radius: 8px;
     border: none;
 }
-.btn-info {
+.btn-info,
+.btn-cyan {
     border: 1px solid var(--fcyan);
     background-color: var(--white);
     color: var(--fcyan);
@@ -4626,7 +4996,8 @@ table th {
     border-radius: 8px;
     border: none;
 }
-.btn-warning {
+.btn-warning,
+.btn-yellow {
     border: 1px solid var(--fyellow);
     background-color: var(--white);
     color: var(--foren);
@@ -4686,6 +5057,8 @@ table th {
     border-radius: 8px;
     border: none;
 }
+
+
 .button-primary {
     background-color: var(--fbiru)!important;
 }
@@ -4953,7 +5326,6 @@ button {
     margin: 2px;
 }
 .button-red,
-.btn-red,
 .tombol-merah {
     color: var(--white);
     background-color: var(--red);
@@ -5158,6 +5530,8 @@ button {
 [class*="tmbl-"] {
     border-radius: 8px;
     cursor: pointer;
+    display: inline-block;
+    font-size: auto;
 }
 
 .layang:hover,
@@ -5505,7 +5879,7 @@ button {
 .hijau,
 .green,
 .text-green,
-.color-green{
+.color-green {
     color: var(--green)!important;
 }
 .emerald {
@@ -5661,7 +6035,7 @@ button {
 
 /* Bootstrap color */
 .bs-biru,
-.bs-blue{
+.bs-blue {
     color: var(--bs-biru)!important;
 }
 .bs-indigo {
@@ -6288,7 +6662,7 @@ button {
     display: block;
 }
 .inline-block,
-.display-inline-block{
+.display-inline-block {
     display: inline-block;
 }
 
@@ -6677,9 +7051,11 @@ https://css-tricks.com/almanac/properties/t/text-shadow/
 /* Tiktok Colors background-color */
 .bg-tiktok-red {
     background-color: var(--t-red)!important;
+    color: var(--t-white);
 }
 .bg-tiktok-black {
     background-color: var(--t-black)!important;
+    color: var(--t-white);
 }
 .bg-tiktok-turquoise,
 .bg-turquoise {
