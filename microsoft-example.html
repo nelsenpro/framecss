@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* import Framecss Framework
+@import url("https://cdn.jsdelivr.net/gh/nelsenpro/framecss/data/frame.1.1.5.css"); */
+@import url("data/frame.css");
+
+        /* css kamu */
+:root {
+            --white: white;
+            --blue: blue;
+            --black: black;
+        }
+        .mymenu li {
+            padding: 8px;
+            margin-bottom: 7px;
+        }
+        /*
+        .mymenu li:hover {
+            background-color: var(--blue)!important;
+        } */
+        .mymenu li:hover {
+            background-color: var(--micro-green)!important;
+            color: var(--white);
+        }
+        body {
+            font-family: "Lucida Sans", sans-serif;
+        }
+        a {
+            color: var(--white);
+        }
+
+        /* modifikasi button to top
+    #btnTop {
+        background-color: var(--fred);
+    }
+    #btnTop:hover {
+        background-color: var(--fbiruu);
+    }*/
+    button {
+        margin: 4px;
+    }
+    </style>
+</head>
+<body class="">
+
+    <div class="header bg-micro-blue padding-15">
+        <h1 class="text-center">Framecss Framework</h1>
+        <p class="text-center font-italic capitalize">
+            versi 1.1.5
+        </p>
+        <button class="button-dark" type="submit" id="darktema">darktema</button>
+        <button class="button-dark" type="submit" id="lighttema">lighttema</button>
+        <button class="button-light" type="submit" id="infotema">infotema</button>
+
+        <button class="button-dark" type="submit" id="primarytema">primarytema</button>
+        <button class="button-light" type="submit" id="successtema">successtema</button>
+        <button class="button-dark" type="submit" id="warningtema">warningtema</button>
+        <button class="button-light" type="submit" id="dangertema">dangertema</button>
+        
+        <button class="button-dark" type="submit" id="secondarytema">secondarytema</button>
+        <button class="button-dark" type="submit" id="ftema">ftema</button>
+        <button class="button-light" type="submit" id="ftema0">ftema0</button>
+        
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 mymenu white">
+            <ul class="margin-0 padding-0 list-style-none">
+                <li onclick="func1()" class="bg-micro-red border-radius-8">CSS Grid System</li>
+                <li onclick="func2()" class="bg-micro-red border-radius-8">Komponen UI</li>
+                <li onclick="func3()" class="bg-micro-red border-radius-8">Variabel CSS</li>
+                <li onclick="func4()" class="bg-micro-red border-radius-8">Utilities</li>
+                <li onclick="func5()" class="bg-micro-red border-radius-8">Dokumentasi</li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <div class="bg-micro-yellow padding-15 border-radius-12 text-black">
+                <h1>Framecss Framework</h1>
+                <p>
+                    Framecss adalah sebuah framework front-end yang diciptakan untuk memudahkan pengembangan tampilan web dengan menggunakan CSS. Dengan menggunakan Framecss, pengembang web dapat mempercepat proses pengembangan tampilan web dengan memanfaatkan komponen siap pakai dan kustomisasi yang mudah.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="bg-micro-red padding-15 font-size-14 text-center white border-radius-12">
+                <h3>Struktur yang responsif</h3>
+                <p></p>
+                <h3>Kumpulan komponen</h3>
+                <p></p>
+                <h3>Kustomisasi</h3>
+                <p></p>
+                <h3>Ringan dan Cepat</h3>
+                <p></p>
+                <h3>Dukungan lintas browser</h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-micro-black text-center font-size-14">
+        <p class="hitam">
+            | <a href="#">GitHub</a> |
+            <a href="#">NPM</a> |
+            <a href="#">GitLab</a> |
+        </p>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+        function func1() {
+            alert("");
+        }
+        function func2() {
+            alert("");
+        }
+        function func3() {
+            alert("");
+        }
+        function func4() {
+            alert("");
+        }
+        function func5() {
+            alert("");
+        }
+    </script>
+    <button onclick="btnTopFunction()" id="btnTop" title="Go to top" class="">^</button>
+
+    <script src="data/ftema.js" type="text/javascript" charset="utf-8" defer="true"></script>
+    <script src="https://cdn.jsdelivr.net/gh/nelsenpro/framecss/dist/frame.js" defer="true"></script>
+</body>
+</html>
