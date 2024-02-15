@@ -1,5 +1,6 @@
 # Fitur Framecss Framework adalah 
 Fitur Framecss adalah Grid Design/Grid System, Padding, Margin, Border Radius, Typography, Ketinggian, Lebar, Ukuran, Tooltip, Akordion, Efek gambar, Fonts, Halaman, Slideshow/Slider Gambar, Linklist, Card, Blockquote, Form, Menu Navigasi, Blok Header, Modals, Button/Tombol, Tabel, Warna, Background Warna, Animasi, Icons, btnTop clik, Breadcrumb
+
 [![Socket Badge](https://socket.dev/api/badge/npm/package/getframecss)](https://socket.dev/npm/package/getframecss)
 #### Framecss Framework Open Source 
 <p align="">Framecss adalah Framework CSS open source yang Menyediakan berbagai macam library CSS untuk keperluan Desain Aplikasi Web <i>Responsible</i> dan aplikasi web. CLASS bisa menggunakan bahasa Indonesia ataupun Inggris. misalnya : class="button" atau class="tombol" dan hasilnya sama. Singkatnya, Framecss mendukung class dua bahasa yaitu bahasa Indonesia dan bahasa Inggris</p> Framecss diciptakan dan di kembangkan oleh Nelsen Niko yang terinspirasi oleh beberapa CSS framework lain, seperti Bootstrap, Foundation, dan Bulma. Framecss menawarkan fitur-fitur unggulan seperti responsive design, grid system, custom components, dan theme customization. Framecss cocok digunakan untuk web desainer pemula dalam membuat web yang modern, elegan, dan mudah digunakan. 
